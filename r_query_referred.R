@@ -1,0 +1,288 @@
+library(DBI)
+library(dplyr)
+library(tidyverse)
+library(writexl)
+library(openxlsx)
+library(tools)
+library(readr)
+library(readxl)
+library(svDialogs)
+
+
+setwd("D:/ALLYSA FILE/2023/DMU Files/DMU Projects/R Query Referred")
+
+# taking input with showing the message
+get_file <- dlgInput("Enter a text filename", Sys.info()[" "])$res
+
+# Connect to db
+con <- dbConnect(RPostgres::Postgres(),dbname = 'WGS_DB', 
+                 host = '10.10.25.163', # i.e. 'ec2-54-83-201-96.compute-1.amazonaws.com'
+                 port = 5432, # or any other port specified by your DBA
+                 user = 'postgres',
+                 password = 'secret123')
+
+
+# Specify the path to your text file
+file_path <- paste('Files/',get_file,'.txt', sep='') 
+
+# Read the IDs from the text file
+id_list <- scan(file_path, what = "")
+
+#list of query for txt file
+#id_list <- scan("to_query.txt", character(), quote = "")
+
+#change dash to underscore
+id_list <- gsub("-", "_", id_list)
+
+# Escape single quotes in the strings
+id_list <- gsub("'", "''", id_list)
+
+# Convert the list of IDs to a comma-separated string enclosed in single quotes
+id_string <- paste0("'", paste(id_list, collapse = "','"), "'")
+
+
+query <- paste("SELECT * from wgs_app_referreddb 
+               WHERE wgs_app_referreddb.sample_name IN (", id_string, ")", sep="")
+
+df <- dbSendQuery(con, query)
+
+result <- dbFetch(df)
+result <- result %>% mutate_all(as.character)
+result <- result %>% mutate_all(~as.character(ifelse(. == "nan", "", .)))
+
+
+# Define the columns to check
+path <- "Files/ORG_GROUPINGS_all.xlsx"
+
+#Check the group of the organism
+df_org_group <- read_xlsx(path, sheet = "all_org")
+org_code <- unique(na.omit(result[['organism_code']]))
+df_org <- df_org_group[df_org_group$ORG == org_code,]
+org_group <- unique(na.omit(df_org$GROUP))
+
+
+#get the panel of antibiotics based on the organism
+path_at <- "Files/CLSI_ORG_ATC.xlsx"
+
+antibiotic_df <- read_xlsx(path_at, sheet = org_group)
+antibiotic_disk <- na.omit(antibiotic_df[['WHON5_CODE_DISK']])
+antibiotic_mic <- na.omit(antibiotic_df[['WHON5_CODE_MIC']])
+antibiotic_list <- c(antibiotic_disk,antibiotic_mic)
+antibiotic_list <- paste(antibiotic_list,'ris', sep = '_')
+
+#column name will be stored in a vector if the column is present in the result database
+cols_to_check <- colnames(result[,intersect(antibiotic_list, colnames(result))])
+
+
+# grep the indices of the columns with "nm" in their names
+disk_colnames <- colnames(result[,intersect(antibiotic_disk, colnames(result))])
+
+# grep the indices of the columns with "nd" in their names
+mic_colnames <- colnames(result[,intersect(antibiotic_mic, colnames(result))])
+
+#combine disk_colnames and Mic_colnames and paste "_ris"
+antibiotic_colnames <- c(disk_colnames,mic_colnames, cols_to_check)
+antibiotic_colnames <- sort(antibiotic_colnames)
+
+
+#non_match_cols <- setdiff(antibiotic_list, result)
+
+#drop column not included in the column list
+#result <- subset(result, select = c(cols_to_check))
+
+#Loop through the columns and set values in df$carba based on conditions
+target_value <- c("R","I")
+result <- result %>%
+  mutate(carba = ifelse(any(result[, cols_to_check] == target_value), 1, 0))
+
+#write.csv(result, file="Files/result_carba_df.csv")
+
+#get laboratory
+result$laboratory <- substr(result$sample_name, 7, 9)
+result$laboratory  <- toupper(result$laboratory)
+
+
+#change date
+result$spec_date <- as.Date(result$spec_date, format = "%Y-%m-%d")
+result$date_admis <- as.Date(result$date_admis, format = "%Y-%m-%d")
+
+result$date_admis[result$date_admis %in% as.Date(c("1977-07-07", "1999-09-09"))] <- ""
+
+
+# Calculate the difference in days between spec_date and date_admis
+result$noso <- as.numeric(difftime(result$spec_date, result$date_admis, units = "days"))
+
+result$infection <- ifelse(result$noso > 2 | result$noso == "", "HAI", "CAI")
+result$infection[is.na(result$date_admis)] <- "CAI"
+
+
+# Extract year, month, and day as before
+result$year <- year(result$spec_date)
+result$month <- month(result$spec_date)
+result$day <- day(result$spec_date)
+
+
+
+df <- result
+
+
+#specimen type define
+sp_type <- read.xlsx("Files/whonet_codes.xlsx", sheet = "SPECIMEN")
+
+#get first 2 chars of sp type
+df$spec_type <- substr(df$spec_type, 1, 2)
+
+df <- df %>%
+  left_join(sp_type, by = c("spec_type" = "SPEC_TYPE")) %>%
+  mutate(specimen_type = coalesce(ENGLISH, spec_type))
+
+# location define
+lab_info <- read.xlsx("Files/whonet_codes.xlsx", sheet = "LABORATORY")
+lab_info$LATITUDE <- as.character(lab_info$LATITUDE)
+lab_info$LONGITUDE <- as.character(lab_info$LONGITUDE)
+
+df <- df %>%
+  left_join(lab_info, by = c("laboratory" = "LABORATORY")) %>%
+  mutate(
+    latitude = coalesce(LATITUDE, laboratory),
+    longitude = coalesce(LONGITUDE, laboratory),
+    island = coalesce(ISLAND, laboratory),
+    region = coalesce(REGION, laboratory)
+  )
+
+#ward define
+ward_info <- read.csv("Files/whonet_location_combined.csv")
+
+ward_info <- select(ward_info, WARD,DEPARTMENT,WARD_TYPE)
+
+ward_info <- distinct(ward_info, WARD, .keep_all = TRUE)
+
+df <- merge(df, ward_info, by.x = "ward", by.y = "WARD", all.x = TRUE)
+
+# Use coalesce to fill missing values
+df$department <- coalesce(df$DEPARTMENT, df$department)
+df$ward_type <- coalesce(df$WARD_TYPE, df$ward_type)
+
+
+# Function to process antibiotics
+R_value <- c("i", "r","ns","R","I","NS")
+S_value <- c("s","S")
+SDD_value <- c("sdd", "SDD")
+
+
+# Create new dataframe to store RIS results
+df_rp <- as.data.frame(df)
+#df_rp <- subset(df_rp, select = c('patient_id',cols_to_check))
+
+
+# check column and set values based on condition
+df_rp <- sapply(df[,cols_to_check],function(x) ifelse(x %in% R_value,"R",
+                                                      ifelse(x %in% S_value,"S",
+                                                             ifelse(x %in% SDD_value,"SDD",x))))
+
+patient_id <- df$patient_id
+df_rp <- as.data.frame(df_rp)
+df_rp <- df_rp[ , order(names(df_rp))]
+
+
+#Add patient_id column as index
+#df_rp <- df_rp %>%
+  #add_column(patient_id, .before = 1)
+
+
+
+# Identify mic column names
+cols_to_paste <- grep("nm", names(df_rp[,cols_to_check]), value = TRUE)
+cols_count <- length(cols_to_paste)
+
+if (cols_count !=0){
+  # Iterate over identified columns and paste values to the column on the left
+  for (col in cols_to_paste) {
+    index <- grep(col, names(df_rp))
+    df_rp[, (index - 1)] <- paste(df_rp[, (index - 1)], df_rp[, col])
+  }
+}
+
+
+
+# Remove mic columns after merging
+df_rp <- df_rp[, -grep("nm", names(df_rp))]
+
+# Remove remove leading or trailing spaces in a string
+df_rp <- as.data.frame(apply(df_rp, 2, function(x) gsub('\\s+', '', x)))
+
+#write.csv(df_rp, file="Files/df_rp_2.csv")
+
+# Remove first character in a string if column contains two string
+df_rp <- as.data.frame(apply(df_rp , 2,function (x) {ifelse(str_length(x) == 2, sub('.', '', x), x)}))
+                       
+#df_rp <- as.data.frame(apply(df_rp, 2, function(x) gsub('(^.).(.*$)', '\\1\\2', x)))
+
+
+#write.csv(df_rp, file="Files/df_rp_3.csv")
+
+#extract antibiotic column name after first underscore
+at_short_colnames <- unique(str_extract(cols_to_check, "[^_]+"))
+at_short_colnames <- sort(at_short_colnames)
+
+
+# Rename all columns and change to uppercase
+names(df_rp) <- toupper(at_short_colnames)
+
+# List df_rp column names
+columns <- colnames(df_rp)
+
+#Resistance profile
+for (col in columns) {
+  df_rp[[paste0("RP_", col)]] <- ifelse(df_rp[[col]] %in% c("R", "NS"), col,
+                                     ifelse(df_rp[[col]] == "S", "   ", "---"))
+}
+
+df_rp$RP <- do.call(paste, c(df_rp[grep("^RP_", names(df_rp))], sep = " "))
+
+
+# Make sample_name values uppercase
+df$sample_name <- toupper(df$sample_name)
+
+# Replace underscores with hyphens
+df$sample_name <- gsub("_", "-", df$sample_name)
+
+#list demographics columns to retain
+keeps_col <- c ("sample_name", "arsrl_org","laboratory",
+                "island","region","latitude","longitude",
+                "patient_id",
+                "age", "sex",
+                "spec_num","specimen_type",
+                "spec_date", "year","month","day",
+                "date_admis","noso", "infection",
+                "nosocomial",
+                "ward","department","ward_type","carba")
+
+
+
+#df_meta <- subset(df, select = c(keeps_col,at_colnames))
+df_meta <- df[ , c(keeps_col,antibiotic_colnames)]
+
+#Add Percent Resistance Column
+RP <- df_rp$RP
+df_meta <- df_meta %>%
+  add_column(RP)
+
+
+file_path_base <- basename(file_path)
+file_path_without_ext <- file_path_sans_ext(file_path_base)
+timestamp <- paste0(format(Sys.time(), "%Y%m%d%H%M"),"_file")
+
+
+# Define the output folder path
+wd <- "D:/ALLYSA FILE/2023/DMU Files/DMU Projects/R Query Referred/Files/"
+
+# Construct the full output file path
+output_folder <- dir.create(paste0(wd,timestamp))
+output_path <- paste0(wd,timestamp)
+setwd(output_path)
+
+output_filename <- paste0(file_path_without_ext,"_listing.xlsx")
+
+# Write the dataframe to Excel in the specified output folder
+write.xlsx(df_meta, file = output_filename, rowNames = TRUE)
