@@ -1,0 +1,3405 @@
+WARD,S_WARD,LABORATORY,DEPARTMENT,WARD_TYPE
+ent,ent,BGH,sur,mix
+er,emr,BGH,eme,in
+ewd,ewd,BGH,unk,unk
+gwd,gwd,BGH,unk,unk
+gyn,obg,BGH,obg,in
+gyne,obg,BGH,obg,in
+m,mwd,BGH,med,in
+mcu,mcu,BGH,mix,in
+med,mwd,BGH,med,In
+micu,mcu,BGH,mix,in
+mwd,mwd,BGH,med,in
+nic,nic,BGH,icu,in
+nsw,nsy,BGH,neo,In
+nsy,nsy,BGH,neo,in
+obg,obg,BGH,obg,in
+opd,opd,BGH,out,out
+ope,ope,BGH,sur,out
+oph,oph,BGH,sur,out
+opm,opm,BGH,med,out
+opo,opo,BGH,ortho,out
+opp,opp,BGH,ped,out
+ops,ops,BGH,sur,out
+ort,ortho,BGH,ortho,In
+orth,ortho,BGH,ortho,In
+ortho,ortho,BGH,ortho,In
+out,out,BGH,mix,out
+owd,owd,BGH,ortho,in
+pcu,pcu,BGH,ped,in
+ped,pwd,BGH,ped,In
+picu,picu,BGH,icu,in
+pncu,pcu,BGH,ped,in
+pwd,pwd,BGH,ped,in
+scu,scu,BGH,icu,in
+sgy,swd,BGH,sur,In
+sic,sic,BGH,psy,in
+sicu,scu,BGH,icu,in
+swd,swd,BGH,sur,in
+,unk,BGH,unk,unk
+asu,asu,BRH,mix,in
+atc,atc,BRH,lab,lab
+ccu,ccu,BRH,med,in
+cer,cer,BRH,inf,eme
+cov,cov,BRH,inf,in
+cov1,cov1,BRH,inf,in
+cov2,cov2,BRH,inf,in
+cov3,cov3,BRH,inf,in
+cov4,cov4,BRH,inf,in
+cov5,cov5,BRH,inf,in
+ER,er,BRH,eme,eme
+fcu,fcu,BRH,icu,in
+gicu,gicu,BRH,icu,in
+ima,ima,BRH,med,in
+imb,imb,BRH,med,in
+imp,imp,BRH,med,in
+inb,imb,BRH,med,in
+mcb,micu,BRH,icu,in
+mcu,micu,BRH,icu,in
+micu,micu,BRH,icu,in
+mlk,mlk,BRH,lab,lab
+msa,msa,BRH,sur,in
+msb,msb,BRH,sur,in
+nsy,nsy,BRH,icu,in
+obg,obg,BRH,obg,in
+old,old,BRH,med,in
+opd,opd,BRH,out,out
+pay,pay,BRH,obg,in
+pcu,pcu,BRH,pic,in
+pdnw,pdnw,BRH,ped,in
+picu,picu,BRH,neo,in
+pulmo,pulmo,BRH,mix,in
+pulmo/old,pulmo,BRH,mix,in
+pwd,pwd,BRH,ped,in
+pwn,pwn,BRH,icu,in
+scu,sicu,BRH,icu,in
+sicu,sicu,BRH,icu,in
+spn,spn,BRH,unk,in
+sur,sur,BRH,sur,in
+swa,swa,BRH,sur,in
+swa,swa,BRH,sur,in
+swb,swb,BRH,sur,in
+,unk,BRH,unk,unk
+ccu,ccu,BRT,med,in
+d11c,unk,BRT,unk,unk
+DR,dr,BRT,obg,in
+icu,icu,BRT,icu,in
+IM,IM,BRT,med,in
+iso,iso,BRT,med,in
+ME,med,BRT,med,in
+med,med,BRT,med,in
+MED,med,BRT,med,in
+MICU,micu,BRT,icu,in
+MICU,micu,BRT,icu,in
+mwd,mwd,BRT,med,in
+nicu,nicu,BRT,neo,in
+obw,obw,BRT,obg,in
+opb,opb,BRT,obg,in
+OPD,opd,BRT,out,out
+opm,opm,BRT,med,out
+opp,opp,BRT,ped,out
+ops,ops,BRT,sur,out
+PACU,pacu,BRT,med,in
+pay,pay,BRT,mix,in
+payx,payx,BRT,mix,in
+ped,pwd,BRT,ped,In
+picu,picu,BRT,icu,in
+PIMAM,PIMAM,BRT,ped,in
+pmd,pmd,BRT,med,in
+pmx,pmx,BRT,mix,in
+PRIVAT,PRIVAT,BRT,mix,in
+pwd,pwd,BRT,ped,in
+S PAY,S.PAY,BRT,mix,in
+S.PAY,S.PAY,BRT,mix,in
+SEMI,SEMI,BRT,mix,in
+sicu,sicu,BRT,icu,in
+SICU,sicu,BRT,icu,in
+surgery,swd,BRT,sur,in
+swd,swd,BRT,sur,in
+,unk,BRT,unk,unk
+atc,atc,CMC,lab,lab
+BB,bb,CMC,lab,lab
+BC,bb,CMC,lab,lab
+brn,brn,CMC,icu,in
+dr,dr,CMC,obg,in
+DR,dr,CMC,obg,in
+emr,emr,CMC,eme,eme
+gcu,gcu,CMC,icu,in
+HDU,hdu,CMC,med,in
+imwd,mwd,CMC,med,In
+isw,isw,CMC,inf,in
+mcu,mcu,CMC,icu,in
+MHU,mhu,CMC,med,in
+mwd,mwd,CMC,med,in
+ncu,nicu,CMC,icu,in
+nicu,nicu,CMC,icu,in
+nsy,nsy,CMC,neo,in
+obg,obg,CMC,obg,in
+ocm,ocm,CMC,med,in
+oco,oco,CMC,obg,in
+ocp,ocp,CMC,ped,in
+ocs,ocs,CMC,sur,in
+onm,onm,CMC,med,in
+ono,ono,CMC,med,in
+onp,onp,CMC,ped,in
+ons,ons,CMC,sur,in
+opd,opd,CMC,out,out
+oph,oph,CMC,sur,in
+opm,opm,CMC,med,out
+opn,opn,CMC,mix,out
+opp,opp,CMC,ped,out
+ops,ops,CMC,sur,out
+opy,opy,CMC,mix,out
+owd,owd,CMC,ortho,in
+pam,pam,CMC,med,in
+pao,pao,CMC,obg,in
+pap,pap,CMC,ped,in
+pas,pas,CMC,sur,in
+pay,pay,CMC,mix,in
+pcu,pcu,CMC,icu,in
+pnm,pnm,CMC,unk,unk
+pwd,pwd,CMC,ped,in
+scu,scu,CMC,icu,in
+srr,swd,CMC,sur,in
+sur,swd,CMC,sur,in
+swd,swd,CMC,sur,in
+TB,TB,CMC,inf,in
+TB/ISO,TB,CMC,inf,in
+tbd,tbd,CMC,med,in
+TB-ISO,TB,CMC,inf,in
+,unk,CMC,unk,unk
+bb,bb,CRH,lab,lab
+COVID,COVID,CRH,inf,in
+covid iso,COVID,CRH,inf,mix
+erid,erid,CRH,inf,in
+fmw,fmw,CRH,med,in
+FMW,fmw,CRH,med,in
+gyne,gyne,CRH,obg,in
+icu,icu,CRH,icu,in
+icu1,icu,CRH,icu,in
+iso,iso,CRH,med,in
+ISO,iso,CRH,med,in
+medical imaging dept,medical imaging dept,CRH,mix,mix
+micro,atc,CRH,lab,lab
+mmw,mmw,CRH,med,in
+mmw - bengzon,mmw - bengzon,CRH,mix,in
+mmw - dayrit,mmw - dayrit,CRH,mix,in
+mmw - ramiro,mmw - ramiro,CRH,mix,in
+mmw - reodica,mmw - reodica,CRH,mix,in
+moicro,atc,CRH,lab,lab
+nic,nicu,CRH,icu,in
+nicu,nicu,CRH,icu,in
+NICU,nicu,CRH,icu,in
+ob,ob,CRH,obg,in
+OB,ob,CRH,obg,in
+opd,opd,CRH,out,out
+OPD,opd,CRH,out,out
+or,or,CRH,mix,in
+ped,ped,CRH,ped,in
+ped1,ped1,CRH,ped,in
+ped2,ped2,CRH,ped,in
+pic,pic,CRH,icu,in
+picu,picu,CRH,icu,in
+picu1,picu,CRH,icu,in
+pr,pr,CRH,mix,in
+pr1,pr1,CRH,mix,in
+pr2,pr2,CRH,mix,in
+sw,sw,CRH,sur,in
+,unk,CRH,unk,unk
+asu,asu,CVM,med,in
+BB,bb,CVM,lab,lab
+bbb,bb,CVM,lab,lab
+cov,cov,CVM,med,in
+dbm,dbm,CVM,psy,in
+dia,dia,CVM,PAY,in
+drm,drm,CVM,obg,in
+eent,ent,CVM,sur,mix
+ent,ent,CVM,sur,mix
+GER,geria,CVM,med,in
+geria,geria,CVM,med,in
+hmb,hmb,CVM,ped,in
+hum,hum,CVM,ped,in
+icu,icu,CVM,icu,in
+IM,IM,CVM,med,in
+imcu,imcu,CVM,icu,in
+inicu,inicu,CVM,icu,In
+jade,jade,CVM,PAY,in
+LR-DR,LR-DR,CVM,OBG,in
+M,mwd,CVM,med,in
+mwd,mwd,CVM,med,in
+MWD W3,mwd,CVM,med,in
+MX- W2,MX- W2,CVM,med,in
+MX- W4,MX- W4,CVM,med,in
+MX-AC,MX-AC,CVM,med,in
+MX-AL,MX-AL,CVM,med,in
+MX-EXT,MX-EXT,CVM,med,in
+MX-FM,MX-FM,CVM,med,in
+MX-MM,MX-MM,CVM,med,in
+MX-W1,MX-W1,CVM,med,in
+MX-W2,MX-W2,CVM,med,in
+MX-W5,MX-W5,CVM,med,in
+ncu,ncu,CVM,icu,in
+neu,neu,CVM,icu,in
+NEU,neu,CVM,icu,in
+nicu,nicu,CVM,neo,in
+nig,nig,CVM,med,in
+obg,obg,CVM,OBG,in
+oog,obg,CVM,OBG,in
+OP,OP,CVM,SUR,out
+opd,opd,CVM,out,out
+OPD,opd,CVM,out,out
+ope,ope,CVM,sur,out
+opf,opf,CVM,out,out
+opg,opg,CVM,obg,out
+oph,oph,CVM,med,out
+opm,opm,CVM,med,out
+opo,opo,CVM,ortho,out
+opp,opp,CVM,ped,out
+opr,opr,CVM,ped,out
+ops,ops,CVM,SUR,out
+opsp,opsp,CVM,out,out
+or,or,CVM,SUR,in
+owd,owd,CVM,ortho,out
+p-nicu,p-nicu,CVM,ped,in
+pacu,pacu,CVM,icu,in
+PAY,PAY,CVM,mix,in
+picu,picu,CVM,icu,in
+psy,psy,CVM,PSY,in
+pwd,pwd,CVM,ped,in
+PX,PX,CVM,ped,in
+ruby,ruby,CVM,PAY,in
+S,swd,CVM,SUR,in
+sapp,sapp,CVM,PAY,in
+sicu,sicu,CVM,icu,in
+swd,swd,CVM,SUR,in
+SX,swd,CVM,SUR,in
+,unk,CVM,unk,unk
+6ps,6ps,DMC,unk,unk
+aicu,aicu,DMC,obg,in
+asu,asu,DMC,mix,out
+bdn,bdn,DMC,unk,In
+bpn,bpn,DMC,ped,in
+bpn,bpn,DMC,unk,In
+buf,buf,DMC,mix,in
+BURN UNIT,brn,DMC,icu,in
+cbdu,cbdu,DMC,hao,in
+cc1,cc1,DMC,unk,in
+cci,cci,DMC,mix,in
+CCI-HDU ROOM #: 1,cci,DMC,mix,in
+CCI ISOL,cci,DMC,mix,in
+ccisol,cci,DMC,mix,in
+ccu,ccu,DMC,med,in
+ciu,ciu,DMC,eme,eme
+COVID 3,covid,DMC,inf,in
+COVID ICU 3 ROOM #: 1 BED #: 16,covid,DMC,inf,in
+COVID ICU 3 ROOM #: 1 BED #: 3,covid,DMC,inf,in
+COVID PICU ROOM #: 7,covid,DMC,inf,in
+cp-icu,cp-icu,DMC,inf,in
+CP-ICU (SERVICE WARD,cp-icu,DMC,inf,in
+CP-ICU (SERVICE WARD) ROOM #: 316 BED #: 1,cp-icu,DMC,inf,in
+CP-ICU (SERVICE WARD) ROOM #: 316 BED #: 11,cp-icu,DMC,inf,in
+CP ICU,cp-icu,DMC,inf,in
+CP WARD 1 (SERVICE WARD) ROOM #: 4,cp1,DMC,inf,in
+cp1,cp1,DMC,inf,in
+cp2,cp2,DMC,inf,in
+CP2 COVID HOLDING AREA ROOM #: 3007 BED #: 2,cp2,DMC,inf,in
+CP2 ICU,cpicu2,DMC,inf,in
+cpi,cpi,DMC,inf,in
+cpi,cpi,DMC,inf,in
+cpicu1,cpicu1,DMC,inf,in
+cpicu1,cpicu1,DMC,inf,in
+cpicu2,cpicu2,DMC,inf,in
+cpicu2,cpicu2,DMC,inf,in
+cpm,cpm,DMC,med,in
+cpu,cpu,DMC,med,in
+cpw,cpw,DMC,med,in
+CS,CS,DMC,oth,out
+DBC,bb,DMC,lab,lab
+deng,deng,DMC,ped,in
+dia,dia,DMC,out,out
+dr,dr,DMC,obg,in
+east,east,DMC,mix,in
+eme,emr,DMC,eme,eme
+EMERGENCY ROOM (IM-C,emr,DMC,eme,eme
+EMERGENCY ROOM (OB),emr,DMC,eme,eme
+EMERGENCY ROOM (PEDI,emr,DMC,eme,eme
+EMERGENCY ROOM (SURG,emr,DMC,eme,eme
+emr,emr,DMC,eme,eme
+ent,ent,DMC,sur,mix
+enx,enx,DMC,mix,in
+er,emr,DMC,eme,eme
+ER-IM,emr,DMC,eme,eme
+er-obs,er-obs,DMC,eme,eme
+ER - SURGERY TRIAGE (LOBBY),ER - SURGERY TRIAGE (LOBBY),DMC,eme,eme
+ER CCU,ER CCU,DMC,eme,eme
+ER CIU,ER CIU,DMC,eme,eme
+ER IM,ER IM,DMC,eme,eme
+ersurg,ersurg,DMC,eme,eme
+FAMILY MEDICINE-PHS,FAMILY MEDICINE-PHS,DMC,mix,in
+GENERAL,GENERAL,DMC,mix,in
+GENERAL PEDIATRIC SU,gps,DMC,ped,in
+gps,gps,DMC,ped,in
+gyn,gyn,DMC,obg,in
+hact,hact,DMC,cli,out
+hba,hba,DMC,med,in
+hdu,hdu,DMC,ped,in
+HI-SICU,HI-SICU,DMC,icu,in
+hicc,hicc,DMC,mix,in
+hiew,hiew,DMC,mix,In
+hior,hior,DMC,med,in
+hipc,hipc,DMC,mix,in
+hirr,hirr,DMC,mix,in
+hisc,hisc,DMC,mix,in
+HYPERBARIC,HYPERBARIC,DMC,mix,in
+ICU 4 (SERVICE WARD),ICU 4 (SERVICE WARD),DMC,icu,in
+icu1,icu1,DMC,icu,in
+icu2,icu2,DMC,icu,in
+icu3,icu3,DMC,icu,in
+icu4,icu4,DMC,icu,in
+icui,icui,DMC,icu,in
+iew,iew,DMC,obg,in
+IM OBS,IM OBS,DMC,med,in
+imed,imed,DMC,med,out
+inc,inc,DMC,lab,lab
+ipbm,ipbm,DMC,psy,in
+isol pedia,isol pedia,DMC,inf,in
+isol1,isol1,DMC,inf,in
+isol2,isol2,DMC,inf,in
+isol3,isol3,DMC,inf,in
+ISOL3,isol3,DMC,inf,in
+isol4,isol4,DMC,inf,in
+ISOL4,isol4,DMC,inf,in
+isol5,isol5,DMC,inf,in
+ISOL5,ISOL5,DMC,inf,in
+ISOLATION 1,isol1,DMC,inf,in
+ISOLATION 5 ROOM #:,isol5,DMC,inf,in
+ISOLATION 5 ROOM #:,isol5,DMC,inf,in
+ISOLATION WARD 1 ROOM #: 3 BED #: 1,isol1,DMC,inf,in
+ISOLATION WARD 3 ROOM #: 3,isol3,DMC,inf,in
+ISOLATION WARD 4 ROO,isol4,DMC,inf,in
+ISOLATION WARD 5 ROOM #: 1 BED #: 67,isol5,DMC,inf,in
+ISOLATION WARD 5 ROOM #: 1 BED #: 9,isol5,DMC,inf,in
+ISOLATION WARD 5 ROOM #: 2,isol5,DMC,inf,in
+ISOLATION WARD 5 ROOM #: 2 BED #: 1,isol5,DMC,inf,in
+iwet,iwet,DMC,obg,in
+IWNH,IWNH,DMC,obg,in
+IWNH-OR,IWNH-OR,DMC,obg,in
+iww,iww,DMC,obg,in
+kmc,kmc,DMC,neo,in
+LINEN,LINEN,DMC,lab,lab
+mbc,mbc,DMC,mix,in
+MDC,MDC,DMC,mix,in
+ME,mwd,DMC,med,in
+meas,meas,DMC,ped,in
+med,mwd,DMC,med,in
+MEDICAL WARD 2 CENTRAL ROOM #: 1 BED #: 4,mw2,DMC,med,in
+MEDICAL WARD 2 CENTRAL ROOM #: 2,mw2,DMC,med,in
+MEDICAL WARD 3 CENTR,mw3,DMC,med,in
+MM,MM,DMC,ped,in
+mw1,mw1,DMC,med,in
+mw2,mw2,DMC,med,in
+mw3,mw3,DMC,med,in
+mwd,mwd,DMC,med,in
+ncu1,ncu1,DMC,neo,in
+ncu2,ncu2,DMC,neo,in
+ncui,ncui,DMC,neo,in
+neoisol,neoisol,DMC,inf,in
+nep,nep,DMC,mix,out
+neuro,neuro,DMC,icu,in
+neuro-icu,neuro-icu,DMC,icu,in
+nic,nic,DMC,icu,in
+NICU,NICU,DMC,neo,In
+nicu1,nicu1,DMC,neo,In
+NICU2,NICU2,DMC,neo,In
+nsg,nsg,DMC,sur,in
+nwd,nwd,DMC,mix,in
+OB,OB,DMC,obg,in
+OB-ER,OB-ER,DMC,obg,eme
+OB ISOLATION WARD RO,obisol,DMC,obg,in
+OB ISOLATION WARD ROOM #: 1 BED #: 1,obisol,DMC,obg,in
+OB WARD 4 ROOM #: 1,ob4,DMC,obg,in
+ob1,ob1,DMC,obg,in
+ob2,ob2,DMC,obg,in
+ob3,ob3,DMC,obg,in
+OB4,OB4,DMC,obg,in
+obb,obb,DMC,obg,in
+ober,ober,DMC,obg,in
+obg,obg,DMC,obg,in
+obisol,obisol,DMC,obg,in
+obw,obw,DMC,obg,in
+obw1,obw1,DMC,obg,in
+obw2,obw2,DMC,obg,in
+obw3,obw3,DMC,obg,in
+obx,obx,DMC,obg,in
+odr,odr,DMC,out,out
+onad,onad,DMC,med,in
+ont,ont,DMC,hao,in
+onx,onx,DMC,med,in
+op2,op2,DMC,out,out
+opd,opd,DMC,out,out
+OPD,opd,DMC,out,out
+ope,ope,DMC,mix,out
+opg,opg,DMC,obg,out
+oph,oph,DMC,mix,out
+opm,opm,DMC,med,out
+opo,opo,DMC,ortho,out
+opp,opp,DMC,ped,out
+ops,ops,DMC,sur,out
+opw,opw,DMC,mix,in
+orm,orm,DMC,mix,in
+ortho,ortho,DMC,sur,in
+ORTHO,ortho,DMC,sur,in
+ORTHO SICU,ortho,DMC,sur,in
+ORTHO STAT,ortho,DMC,sur,in
+ORTHO STAT ROOM #: 4,ortho,DMC,sur,in
+ORTHO STAT ROOM #: 401 BED #: 1,ortho,DMC,sur,in
+ORTHO STAT ROOM #: 402 BED #: 11,ortho,DMC,sur,in
+ORTHO STAT ROOM #: 403,ortho,DMC,sur,in
+ORTHO STAT ROOM #: 407 BED #: 9,ortho,DMC,sur,in
+ORTHO STAT ROOM #: 407 BED #: 9,ortho,DMC,sur,in
+ORTHO STAT ROOM #: 415 BED #: 15,ortho,DMC,sur,in
+ORTHO STAT ROOM #: 416 BED #: 9,ortho,DMC,sur,in
+ORTHO STAT ROOM #: 419,ortho,DMC,sur,in
+orts,orts,DMC,med,in
+OUTPATIENT,opd,DMC,out,out
+owd,owd,DMC,ortho,in
+pac,pac,DMC,mix,in
+pal,pal,DMC,oth,in
+PALLIATIVE AND HOSPICE CARE,pal,DMC,oth,in
+PALLIATIVE AND HOSPICE CARE,pal,DMC,oth,in
+pax,pax,DMC,ped,in
+pay2,pay2,DMC,mix,in
+PAYWARD2,pay2,DMC,mix,in
+pcu,pcu,DMC,icu,in
+pcu1,pcu1,DMC,icu,in
+pcu2,pcu2,DMC,icu,in
+pcu3,pcu3,DMC,icu,in
+pcui,pcui,DMC,icu,in
+ped,ped,DMC,ped,in
+PEDIA ANNEX NON-COVID ROOM #: 301,ped,DMC,ped,in
+PEDIA ANNEX NON-COVID ROOM #: 301 BED #: 1,ped,DMC,ped,in
+PEDIA DENGUE WARD RO,ped,DMC,ped,in
+PEDIA DENGUE WARD ROOM #: 1,ped,DMC,ped,in
+PEDIA MAIN I (SERVICE WARD) ROOM #: 303 BED #: 2,ped,DMC,ped,in
+PEDIA MAIN I (SERVICE WARD) ROOM #: 305 BED #: 4,ped,DMC,ped,in
+PEDIA MAIN II (SERVI,ped,DMC,ped,in
+PEDIA MAIN II (SERVICE WARD) ROOM #: 302,ped,DMC,ped,in
+PEDIA MAIN II (SERVICE WARD) ROOM #: 306 BED #: 2,ped,DMC,ped,in
+PEDIATRIC SPECIALTY,ped,DMC,ped,in
+PEDIATRIC SPECIALTY WING ROOM #: 2 BED #: 6,ped,DMC,ped,in
+PEDIATRIC SPECIALTY WING ROOM #: 2 BED #: 7,ped,DMC,ped,in
+PEDMAIN,ped,DMC,ped,in
+phs,phs,DMC,med,out
+picu,picu,DMC,icu,in
+PICU 3 CENTRAL (SERV,PICU 3 CENTRAL (SERV,DMC,icu,in
+PICU I - INFECTIOUS (SERVICE WARD) ROOM #: 1029 BED #: 1,picu1,DMC,icu,in
+PICU II - INFECTIOUS,PICU II - INFECTIOUS,DMC,icu,in
+picu1,picu1,DMC,icu,in
+picu1,picu1,DMC,icu,in
+pis,pis,DMC,ped,in
+pn2,pn2,DMC,unk,unk
+pne,pne,DMC,ped,in
+psn,psn,DMC,unk,In
+psw,psw,DMC,mix,in
+pw,pw,DMC,mix,in
+pw1,pw1,DMC,mix,in
+pw2,pw2,DMC,mix,in
+pw2,pw2,DMC,mix,in
+pw3,pw3,DMC,mix,in
+pwd,pwd,DMC,ped,in
+pwd1,pwd1,DMC,ped,in
+pwd2,pwd2,DMC,ped,in
+rdu,rdu,DMC,out,out
+RESU,RESU,DMC,unk,unk
+S,S,DMC,mix,in
+sax,sax,DMC,sur,in
+scu,scu,DMC,mix,in
+scu2,scu2,DMC,med,in
+sea,sea,DMC,mix,in
+SICU2,scu2,DMC,med,in
+sn,sn,DMC,neo,in
+sne,sne,DMC,unk,In
+SPOR1,spori,DMC,med,in
+spori,spori,DMC,med,in
+SPORI GS-2 ROOM #: 1 BED #: 15,spori,DMC,med,in
+SPORI GS-2 ROOM #: 2,spori,DMC,med,in
+SU,sur,DMC,sur,in
+sur,sur,DMC,sur,in
+SURG,sur,DMC,sur,in
+SURG EAST,sur,DMC,sur,in
+SURGERY EAST (SERVICE WARD) ROOM #: 8,sur,DMC,sur,in
+swa,swa,DMC,sur,in
+swd,swd,DMC,sur,in
+swe,swe,DMC,mix,in
+swe,swe,DMC,mix,in
+URGENT CANCER SURGER,URGENT CANCER SURGER,DMC,sur,in
+URGENT CANCER SURGERY WARD ROOM #: 1 BED #: 11,URGENT CANCER SURGERY WARD ROOM #: 1 BED #: 11,DMC,sur,in
+URGENT CANCER SURGERY WARD ROOM #: 1 BED #: 12,URGENT CANCER SURGERY WARD ROOM #: 1 BED #: 12,DMC,sur,in
+uro,uro,DMC,out,out
+wcpu,wcpu,DMC,com,out
+wea,wea,DMC,obg,in
+west,west,DMC,mix,in
+wlk,wlk,DMC,mix,mix
+wwe,wwe,DMC,obg,in
+,unk,DMC,unk,unk
+atc,atc,EVR,lab,lab
+cai,cai,EVR,mix,in
+cci,ccu,EVR,med,In
+ccu,ccu,EVR,med,In
+CCU,CCU,EVR,med,in
+cicu,cicu,EVR,med,in
+cicu-2,cicu-2,EVR,med,in
+emow,emow,EVR,med,in
+EMOW,EMOW,EVR,med,in
+emr,emr,EVR,eme,eme
+EMR,emr,EVR,eme,eme
+ent,ent,EVR,sur,mix
+ent-2,ent-2,EVR,sur,mix
+ent-w2,ent-w2,EVR,sur,mix
+er,emr,EVR,eme,eme
+erha,erha,EVR,eme,eme
+ERM,ERM,EVR,eme,eme
+evr,atc,EVR,lab,lab
+gcu,gcu,EVR,icu,in
+icu,icu,EVR,icu,in
+im,im,EVR,med,in
+IM,IM,EVR,med,in
+im ckd,im,EVR,med,in
+IM1,IM1,EVR,med,in
+im2,im2,EVR,med,in
+IM2,IM2,EVR,med,in
+im-2,im-2,EVR,med,in
+im3,im3,EVR,med,in
+imc,imc,EVR,med,in
+IMCU-1,icu,EVR,icu,in
+IMCU2,icu,EVR,icu,in
+imw,imw,EVR,med,in
+IMW,imw,EVR,med,in
+imw1,imw1,EVR,med,in
+imw1,imw1,EVR,med,in
+IMW1,imw1,EVR,med,in
+imw-1,imw1,EVR,med,in
+imw2,imw2,EVR,med,in
+IMW2,imw2,EVR,med,in
+imw-2,imw2,EVR,med,in
+im-w2,im-w2,EVR,med,in
+IMW3,imw3,EVR,med,in
+iso,iso,EVR,mix,in
+iso,iso,EVR,mix,in
+iso,iso,EVR,mix,in
+iso,iso,EVR,mix,in
+iso,iso,EVR,mix,in
+m,mwd,EVR,med,in
+mch,mch,EVR,icu,in
+mcu,mcu,EVR,icu,in
+MER,MER,EVR,med,in
+MNCU,MNCU,EVR,ped,in
+msu,unk,EVR,unk,in
+mwd,mwd,EVR,med,in
+ncu,ncu,EVR,icu,in
+nicu,nicu,EVR,neo,in
+NICU,NICU,EVR,neo,in
+nsw,nsw,EVR,sur,in
+nsy,nsy,EVR,neo,in
+ob,ob,EVR,obg,in
+ob lr,ob-lr,EVR,obg,In
+obg,obg,EVR,obg,in
+ob-lr,ob-lr,EVR,obg,In
+odr,odr,EVR,out,out
+OP,opd,EVR,out,out
+opd,opd,EVR,out,out
+opg,opg,EVR,out,out
+oph,oph,EVR,sur,in
+opm,opm,EVR,med,out
+opp,opp,EVR,ped,out
+opy,opy,EVR,out,out
+owd,owd,EVR,sur,in
+owd-1,owd-1,EVR,sur,In
+p,p,EVR,mix,in
+p1m,p1m,EVR,med,in
+pay,pay,EVR,mix,in
+pcu,pcu,EVR,pic,in
+ped,pwd,EVR,ped,In
+pedw2,pwd,EVR,ped,In
+picu,picu,EVR,ped,in
+pw1,pw1,EVR,ped,in
+PW1,PW1,EVR,ped,in
+PW1,PW1,EVR,ped,in
+PW1,PW1,EVR,ped,in
+pw-1,pw-1,EVR,ped,in
+pw-1,pw-1,EVR,ped,in
+pw2,pw2,EVR,ped,in
+PW2,PW2,EVR,ped,in
+pwd,pwd,EVR,ped,in
+pwd1,pwd1,EVR,ped,in
+pwd2,pwd2,EVR,ped,in
+resu,resu,EVR,unk,unk
+RHICU,RHICU,EVR,obg,in
+rhn,rhn,EVR,unk,unk
+rhnc,rhnc,EVR,unk,In
+RHNER,RHNER,EVR,med,in
+RHNIC,RNICU,EVR,ped,in
+RHNICU,RNICU,EVR,ped,in
+RNIC,RNICU,EVR,ped,in
+RNICU,RNICU,EVR,ped,in
+rnl,rnl,EVR,med,in
+scu,scu,EVR,icu,in
+sic,sic,EVR,mix,out
+sicu,sicu,EVR,sur,in
+SICU,sicu,EVR,sur,in
+spw,spw,EVR,mix,in
+SPW,SPW,EVR,sur,in
+srr,srr,EVR,sur,in
+str,str,EVR,med,in
+STR,str,EVR,med,in
+str1,str1,EVR,med,in
+stroke,unk,EVR,unk,In
+stu,stu,EVR,med,in
+stu,stu,EVR,med,in
+surg w2,sw2,EVR,sur,in
+surgw2,sw2,EVR,sur,in
+sw,sw,EVR,sur,in
+sw1,sw1,EVR,sur,in
+SW1,SW1,EVR,sur,in
+SW1,SW1,EVR,sur,in
+sw1,sw1,EVR,sur,in
+sw-1,sw-1,EVR,sur,in
+sw-1,sw1,EVR,sur,in
+sw2,sw2,EVR,sur,in
+SW2,SW2,EVR,sur,in
+sw-2,sw-2,EVR,sur,in
+swd,swd,EVR,sur,in
+swd,swd,EVR,sur,in
+swd,swd,EVR,sur,in
+swd1,swd1,EVR,sur,in
+SWD1,SWD1,EVR,sur,in
+swd2,swd2,EVR,sur,in
+SWD2,SWD2,EVR,sur,in
+SWD2,SWD2,EVR,sur,in
+swi,swi,EVR,sur,in
+tidu,tidu,EVR,med,in
+TIDU,TIDU,EVR,med,in
+tidu,TIDU,EVR,med,in
+,unk,EVR,unk,unk
+3,3,FEU,unk,out
+302,302,FEU,med,in
+303,303,FEU,med,in
+304,304,FEU,med,in
+305,305,FEU,med,in
+306,306,FEU,med,in
+307,307,FEU,med,in
+308,308,FEU,med,in
+310,310,FEU,med,in
+311,311,FEU,med,in
+312,312,FEU,med,in
+314,314,FEU,med,in
+314,314,FEU,ped,in
+315,315,FEU,med,in
+316,316,FEU,ped,in
+319,319,FEU,med,in
+321,321,FEU,med,in
+322,322,FEU,med,in
+323,323,FEU,med,in
+323,323,FEU,ped,in
+323A,323A,FEU,ped,in
+324,324,FEU,med,in
+325,325,FEU,med,in
+327,327,FEU,obg,in
+328 B,328 B,FEU,med,in
+329,329,FEU,med,in
+330A,330A,FEU,sur,in
+332 B,332 B,FEU,med,in
+333B,333B,FEU,med,in
+334B,334B,FEU,med,in
+335b,335b,FEU,med,in
+335B,335B,FEU,med,in
+336-A,336-A,FEU,med,in
+336B,336B,FEU,med,in
+338 B,338 B,FEU,med,in
+339B,339B,FEU,med,in
+340,340,FEU,med,in
+342A,342A,FEU,med,in
+344B,344B,FEU,med,in
+347 B,347 B,FEU,med,in
+347 B,347 B,FEU,ped,in
+348 B,348 B,FEU,med,in
+348B,348B,FEU,med,in
+349B,349B,FEU,med,in
+349C,349C,FEU,med,in
+350B,350B,FEU,med,in
+350C,350C,FEU,med,in
+351,351,FEU,med,in
+352,352,FEU,med,in
+352A,352A,FEU,med,in
+354 B,354 B,FEU,oth,in
+354C,354C,FEU,med,in
+354d,354d,FEU,med,in
+354E,354E,FEU,med,in
+357 A,357 A,FEU,med,in
+357 B,357 B,FEU,med,in
+357B,357B,FEU,med,in
+3a,3a,FEU,med,in
+3A,3A,FEU,med,in
+3B,3B,FEU,med,in
+3C,3C,FEU,med,in
+3C,3C,FEU,med,in
+401,401,FEU,med,in
+402,402,FEU,med,in
+403,403,FEU,med,in
+404,404,FEU,med,in
+405,405,FEU,med,in
+406,406,FEU,med,in
+407,407,FEU,med,in
+412,412,FEU,med,in
+420,420,FEU,med,in
+421,421,FEU,ped,in
+425,425,FEU,ped,in
+427,427,FEU,unk,in
+430,430,FEU,obg,in
+430 D,430 D,FEU,obg,in
+430D,430D,FEU,med,in
+436H,436H,FEU,med,in
+437F,437F,FEU,med,in
+4a,4a,FEU,med,in
+4A,4A,FEU,med,in
+4A,4A,FEU,ped,in
+4A,4A,FEU,ped,in
+501,501,FEU,med,in
+501 A,501 A,FEU,ped,in
+501B,501B,FEU,ped,in
+501E,501E,FEU,ped,in
+503,503,FEU,neo,in
+503B,503B,FEU,ped,in
+504F,504F,FEU,ped,in
+505,505,FEU,med,in
+505 A,505 A,FEU,med,in
+505 C,505 C,FEU,med,in
+505 J,505 J,FEU,med,in
+505C,505C,FEU,med,in
+505D,505D,FEU,sur,in
+505f,505f,FEU,med,in
+505J,505J,FEU,med,in
+505K,505K,FEU,med,in
+506,506,FEU,med,in
+506 E,506 E,FEU,med,in
+506 I,506 I,FEU,med,in
+506C,506C,FEU,med,in
+506E,506E,FEU,med,in
+506F,506F,FEU,med,in
+557A,557A,FEU,med,in
+5A,5A,FEU,in,in
+5b,5b,FEU,med,in
+5B,5B,FEU,med,in
+603,603,FEU,med,in
+604,604,FEU,med,in
+606,606,FEU,med,in
+608,608,FEU,ped,in
+609,609,FEU,med,in
+611,611,FEU,med,in
+615,615,FEU,med,in
+621,621,FEU,med,in
+624,624,FEU,med,in
+625,625,FEU,ped,in
+628,628,FEU,med,in
+629,629,FEU,med,in
+6A,6A,FEU,med,in
+ccu,ccu,FEU,icu,in
+CCU,CCU,FEU,icu,in
+CCU,CCU,FEU,icu,in
+CCU,CCU,FEU,oth,in
+CCU,CCU,FEU,oth,in
+CCU,CCU,FEU,oth,oth
+CCU 1,CCU 1,FEU,icu,in
+emr,emr,FEU,eme,eme
+ent,ent,FEU,sur,mix
+er,er,FEU,eme,eme
+ER,ER,FEU,eme,eme
+flr7,flr7,FEU,unk,in
+icu,icu,FEU,icu,in
+ICU,ICU,FEU,icu,in
+ICU 1,ICU 1,FEU,icu,in
+ICU 2,ICU 2,FEU,icu,in
+ICU 7,ICU 7,FEU,med,in
+ICU3,ICU3,FEU,icu,in
+ICU4,ICU4,FEU,icu,in
+In-Pat,In-Pat,FEU,unk,in
+mcu,mcu,FEU,icu,in
+mwd,mwd,FEU,med,in
+ncu,ncu,FEU,neo,in
+NCU,NCU,FEU,neo,in
+nicu,nicu,FEU,neo,in
+NICU,NICU,FEU,neo,in
+NICU 7,NICU 7,FEU,pic,in
+NICU2,NICU2,FEU,neo,in
+NICU7,NICU7,FEU,pic,in
+nsy,nsy,FEU,neo,in
+obg,obg,FEU,obg,in
+opd,opd,FEU,out,out
+OPD,OPD,FEU,out,out
+opg,opg,FEU,obg,out
+oph,oph,FEU,out,out
+opm,opm,FEU,med,out
+opp,opp,FEU,ped,out
+Out-Pa,opd,FEU,out,out
+pcu,pcu,FEU,ped,in
+ped,ped,FEU,ped,in
+PICU,PICU,FEU,icu,in
+pwd,pwd,FEU,ped,in
+swd,swd,FEU,sur,in
+,unk,FEU,unk,unk
+a5u,asu,GMH,med,in
+asu,asu,GMH,med,in
+ASU,ASU,GMH,med,in
+BLBANK,bb,GMH,lab,lab
+BLD,bb,GMH,lab,lab
+BLDBAN,bb,GMH,lab,lab
+BLDBK,bb,GMH,lab,lab
+BLDBNK,bb,GMH,lab,lab
+brn,brn,GMH,icu,in
+BURN U,brn,GMH,icu,in
+cai,cai,GMH,mix,in
+CSR,CSR,GMH,lab,lab
+DENTAL,DENTAL,GMH,lab,lab
+DIETAR,DIETAR,GMH,lab,lab
+DR,DR,GMH,obg,in
+emr,emr,GMH,eme,eme
+ER,emr,GMH,eme,eme
+gcu,gcu,GMH,icu,in
+HDU,HDU,GMH,lab,lab
+ica,ica,GMH,med,in
+IPCU,IPCU,GMH,lab,lab
+LAB,LAB,GMH,lab,lab
+MAIN O,MAIN O,GMH,lab,lab
+MAIN-O,MAIN-O,GMH,lab,lab
+mari,mari,GMH,inf,in
+mcu,mcu,GMH,icu,in
+MCU 1,MCU 1,GMH,icu,in
+MCU 2,MCU 2,GMH,icu,in
+med,med,GMH,med,In
+med1,med1,GMH,med,in
+med2,med2,GMH,med,in
+med3,med3,GMH,med,in
+medi,medi,GMH,med,In
+mwd,mwd,GMH,med,in
+ncu,ncu,GMH,icu,in
+NEW OR,NEW OR,GMH,mix,in
+nic,nic,GMH,icu,in
+NICU,NICU,GMH,icu,in
+nsy,nsy,GMH,neo,in
+OB,OB,GMH,obg,in
+OB-0R,OB-0R,GMH,obg,in
+OB-DR,OB-DR,GMH,obg,in
+OB-ER,OB-ER,GMH,obg,in
+obg,obg,GMH,obg,in
+OB-IMU,OB-IMU,GMH,obg,in
+OB-OR,OB-OR,GMH,obg,in
+opd,opd,GMH,out,out
+OPD-AN,OPD-AN,GMH,out,out
+OPD-OB,OPD-OB,GMH,obg,out
+ope,ope,GMH,out,out
+opg,opg,GMH,out,out
+opg,opg,GMH,obg,Out
+opm,opm,GMH,med,out
+opp,opp,GMH,ped,out
+ops,ops,GMH,sur,out
+opy,opy,GMH,out,out
+OR,OR,GMH,sur,in
+OR COM,OR COM,GMH,sur,in
+OR III,OR III,GMH,sur,in
+OR-MAI,OR-MAI,GMH,sur,in
+ORMAIN,ORMAIN,GMH,sur,in
+PACU,PACU,GMH,sur,in
+pay1,pay1,GMH,mix,in
+pay2,pay2,GMH,mix,in
+pcu,pcu,GMH,icu,in
+ped1,ped1,GMH,ped,in
+ped2,ped2,GMH,ped,in
+pedi,pedi,GMH,ped,In
+PEDIA,PEDIA,GMH,ped,in
+PHARMA,PHARMA,GMH,lab,lab
+PICU,PICU,GMH,icu,in
+pwd,pwd,GMH,ped,in
+RADIOL,RADIOL,GMH,unk,unk
+REHAB,REHAB,GMH,unk,unk
+sar1,sari,GMH,inf,in
+sari,sari,GMH,inf,in
+scu,scu,GMH,icu,in
+SICU,SICU,GMH,icu,in
+SUPPLY,SUPPLY,GMH,lab,lab
+SUR 2,SUR 2,GMH,sur,in
+sur1,sur1,GMH,sur,in
+sur2,sur2,GMH,sur,in
+SURG 2,sur2,GMH,sur,in
+suri,sur1,GMH,sur,in
+swd,swd,GMH,sur,in
+tidu,tidu,GMH,med,in
+XRAY,XRAY,GMH,lab,lab
+,unk,GMH,unk,unk
+0.3,0.3,JLM,unk,unk
+7,7,JLM,unk,unk
+777,777,JLM,unk,unk
+7777,7777,JLM,unk,out
+777777,777777,JLM,unk,unk
+emr,emr,JLM,eme,eme
+ent,ent,JLM,sur,in
+fmd,fmd,JLM,med,in
+gcu,gcu,JLM,icu,in
+icu,icu,JLM,sur,in
+m,m,JLM,icu,in
+"m,wd",mwd,JLM,med,in
+mcu,mcu,JLM,icu,in
+med,med,JLM,med,in
+med5,med5,JLM,med,in
+mor,mor,JLM,sur,in
+mwd,mwd,JLM,med,in
+ncu,ncu,JLM,icu,in
+nic,nic,JLM,icu,in
+nicu,nicu,JLM,icu,in
+obg,obg,JLM,obg,in
+op,op,JLM,out,out
+opd,opd,JLM,out,out
+ope,ope,JLM,ent,out
+opg,opg,JLM,obg,out
+oph,oph,JLM,sur,in
+opi,opi,JLM,out,out
+opm,opm,JLM,med,out
+opo,opo,JLM,sur,out
+opp,opp,JLM,ped,out
+ops,ops,JLM,sur,out
+opy,opy,JLM,out,out
+owd,owd,JLM,sur,in
+pcu,pcu,JLM,ped,in
+Ped,Ped,JLM,ped,in
+ped6,ped6,JLM,ped,in
+picu,picu,JLM,icu,in
+pwd,pwd,JLM,ped,in
+scu,scu,JLM,icu,in
+swd,swd,JLM,sur,in
+,unk,JLM,unk,unk
+2a,2a,LCP,mix,in
+2A\,2a,LCP,mix,in
+2b,2b,LCP,mix,in
+3a,3a,LCP,sur,in
+3b,3b,LCP,med,in
+3c,3c,LCP,mix,in
+3da,3da,LCP,med,in
+3dp,3dp,LCP,ped,in
+emr,emr,LCP,eme,eme
+era,era,LCP,eme,eme
+erp,erp,LCP,eme,eme
+mcu,mcu,LCP,icu,in
+micu,micu,LCP,icu,in
+OP,opd,LCP,out,out
+opd,opd,LCP,out,out
+opm,opm,LCP,out,out
+ops,ops,LCP,out,out
+pcu,pcu,LCP,pic,in
+picu,picu,LCP,icu,in
+pwd,pwd,LCP,ped,in
+ricu,ricu,LCP,icu,in
+rr,rr,LCP,icu,in
+sicu,sicu,LCP,icu,in
+srr,srr,LCP,sur,in
+stu,stu,LCP,inf,in
+,unk,LCP,unk,unk
+5mwd,5mwd,MAR,mix,in
+anx2,anx2,MAR,mix,in
+anx3,anx3,MAR,mix,in
+anx4,anx4,MAR,mix,in
+anx8,anx8,MAR,mix,in
+cai,cai,MAR,mix,in
+cbm,cbm,MAR,med,in
+cboc,cboc,MAR,unk,In
+cboe,cboe,MAR,sur,in
+cbp,cbp,MAR,ped,in
+cendu,cendu,MAR,mix,in
+cmcu,cmcu,MAR,icu,in
+cmwa,cmwa,MAR,med,In
+cmwd,cmwd,MAR,med,in
+cncu,cncu,MAR,neo,in
+cnwd,cnwd,MAR,unk,In
+cpcu,cpcu,MAR,icu,in
+D64.9,D64.9,MAR,unk,unk
+emr,emr,MAR,eme,eme
+epcu,unk,MAR,unk,unk
+icu,icu,MAR,icu,in
+n04,unk,MAR,unk,in
+nsy,nsy,MAR,neo,in
+obg,obg,MAR,obg,in
+odr,odr,MAR,out,out
+opd,opd,MAR,out,out
+opd,opd,MAR,out,out
+ope,ope,MAR,out,out
+opg,opg,MAR,out,out
+oph,oph,MAR,sur,in
+opi,opi,MAR,out,out
+opm,opm,MAR,med,out
+opn,opn,MAR,out,out
+opo,opo,MAR,out,out
+opp,opp,MAR,ped,out
+ops,ops,MAR,sur,out
+pay2,pay2,MAR,mix,in
+pay3,pay3,MAR,mix,in
+pay4,pay4,MAR,mix,in
+pmcu,pmcu,MAR,icu,in
+pmcu2,pmcu2,MAR,med,in
+pwd3,pwd3,MAR,ped,in
+rnl,rnl,MAR,med,in
+scu,scu,MAR,icu,in
+smcu,smcu,MAR,icu,in
+smcu,smcu,MAR,icu,in
+smwa,smwa,MAR,med,In
+smwd,smwd,MAR,med,in
+sncu,sncu,MAR,neo,in
+spcu,spcu,MAR,ped,in
+swd,swd,MAR,sur,in
+,unk,MAR,unk,unk
+15,15,MMH,med,in
+16,16,MMH,sur,in
+17,17,MMH,sur,in
+404,404,MMH,unk,in
+406,406,MMH,unk,in
+407,407,MMH,unk,in
+409,409,MMH,unk,in
+411,411,MMH,unk,in
+504,504,MMH,unk,in
+506,506,MMH,unk,in
+507,507,MMH,unk,in
+510,510,MMH,unk,in
+511,511,MMH,unk,in
+611,611,MMH,unk,in
+14-3,14-3,MMH,unk,in
+1a,1a,MMH,unk,in
+1b-10,1b-10,MMH,unk,in
+3F_CCU3,3F_CCU3,MMH,icu,in
+3f_icu,3f_icu,MMH,icu,in
+3f_icu,3f_icu,MMH,icu,in
+3f-ccu,3f-ccu,MMH,icu,in
+3f-ccu2,3f-ccu2,MMH,icu,in
+404e,404e,MMH,unk,in
+405c,405c,MMH,unk,in
+406h,406h,MMH,unk,in
+407b,407b,MMH,unk,in
+407c,407c,MMH,unk,in
+407d,407d,MMH,unk,in
+4f,4f,MMH,unk,in
+4fwr,4fwr,MMH,sur,in
+4pwr,4pwr,MMH,unk,in
+503c,503c,MMH,unk,in
+503e,503e,MMH,unk,in
+504a,504a,MMH,unk,in
+504c,504c,MMH,unk,in
+504d,504d,MMH,unk,in
+504e,504e,MMH,unk,in
+504f,504f,MMH,unk,in
+505a,505a,MMH,unk,in
+505e,505e,MMH,unk,in
+507c,507c,MMH,unk,in
+507d,507d,MMH,unk,in
+508b,508b,MMH,unk,in
+509b,509b,MMH,unk,in
+509d,509d,MMH,unk,in
+511b,511b,MMH,unk,in
+511f,511f,MMH,unk,in
+5f-509,5f-509,MMH,unk,in
+5f-511,5f-511,MMH,unk,in
+5fwr,5fwr,MMH,med,in
+6fwr,6fwr,MMH,med,in
+aicu,aicu,MMH,icu,in
+alley,alley,MMH,med,in
+alley annx,alley annx,MMH,med,in
+atc,atc,MMH,lab,lab
+BLOODBANK,bb,MMH,lab,lab
+burn,burn,MMH,sur,in
+ccu,ccu,MMH,icu,in
+d-gsw,d-gsw,MMH,sur,in
+eid,eid,MMH,med,in
+eid,eid,MMH,unk,in
+emr,emr,MMH,eme,eme
+er,emr,MMH,eme,eme
+er flr1,ERFLR1,MMH,med,in
+ERFLR 1,ERFLR1,MMH,med,in
+ERFLR1,ERFLR1,MMH,med,in
+er-flr1,ERFLR1,MMH,med,in
+flk1,ERFLR1,MMH,med,in
+FLOOR 1,flr 1,MMH,med,in
+flr 1,flr 1,MMH,med,in
+flr 1,flr 1,MMH,med,in
+FLR 1 MSC,FLR 1 MSC,MMH,med,in
+FLR 1_MISC,FLR 1_MISC,MMH,med,in
+FLR 1_MISC,FLR1 MSC,MMH,med,in
+flr1,flr 1,MMH,med,in
+flr-1,flr 1,MMH,med,in
+FLR1 MISC3,FLR1 MISC3,MMH,med,in
+FLR1 MISC3,FLR1 MSC3,MMH,med,in
+FLR1 MSC,FLR1 MSC,MMH,med,in
+FLR1 MSC,FLR1 MSC,MMH,med,in
+FLR1 MSC,FLR1 MSC,MMH,med,in
+FLR1_MISC2,FLR1_MISC2,MMH,med,in
+FLR1_MISC2,FLR1 MSC2,MMH,med,in
+FLR1_MISC3,FLR1_MISC3,MMH,med,in
+FLR1_MISC3,FLR1 MSC3,MMH,med,in
+FLR1MISC2,FLR1MISC2,MMH,med,in
+FLR1MISC2,FLR1 MSC2,MMH,med,in
+FLR1MISC3,FLR1MISC3,MMH,med,in
+FLR1MISC3,FLR1 MSC3,MMH,med,in
+flr-a,flr-a,MMH,med,in
+fow,fow,MMH,sur,in
+FOW,FOW,MMH,sur,in
+fsw,fsw,MMH,sur,in
+gastro,gastro,MMH,mix,in
+gcu,gcu,MMH,icu,in
+gs,gs,MMH,sur,in
+GS,GS,MMH,sur,in
+GS,gsw,MMH,sur,in
+GS-,GS,MMH,sur,in
+GS-,gsw,MMH,sur,in
+gs1,GS1,MMH,sur,in
+GS1,GS1,MMH,sur,in
+gs2,gs2,MMH,sur,in
+GS-ALLEY,GS-ALLEY,MMH,sur,in
+gsi,gsi,MMH,sur,in
+gs-iso,gs-iso,MMH,sur,in
+gs-neuro,gs-neuro,MMH,sur,in
+GS-NEURO,GS-NEURO,MMH,sur,in
+gsw,gsw,MMH,sur,in
+gyne,gyne,MMH,obg,in
+GYNE,GYNE,MMH,obg,in
+gyne,gyne,MMH,obg,in
+HD,HD,MMH,oth,in
+HD,HD,MMH,oth,in
+hemo,hemo,MMH,oth,oth
+HEMO,HEMO,MMH,med,in
+hemo,hemo,MMH,med,mix
+HEMO,hemo,MMH,med,mix
+HEMO UNIT,HEMO UNIT,MMH,oth,oth
+HEMO UNIT,hemo,MMH,med,mix
+icu,icu,MMH,icu,in
+icu2,icu2,MMH,icu,in
+lab,lab,MMH,lab,lab
+m.isol,m.isol,MMH,med,in
+m.isol,m.isol,MMH,med,in
+m1,m1-1,MMH,med,in
+m1-1,m1-1,MMH,med,in
+m1-2,m1-2,MMH,med,in
+m1-k,m1-k,MMH,med,in
+m1-k,m1-k,MMH,med,in
+m1-r,m1-r,MMH,med,in
+MC1,MC1,MMH,med,in
+MC1-RM2,MC1-RM2,MMH,med,in
+mci,mci,MMH,med,in
+MCI,MCI,MMH,med,in
+MCI-CF,MCI-CF,MMH,med,in
+MCI-CF-B,MCI-CF-B,MMH,med,in
+MCI-RM2,MCI-RM2,MMH,med,in
+MCI-RM3,MCI-RM3,MMH,med,in
+MCI-RM4,MCI-RM4,MMH,med,in
+MCI-RM4,MCI-RM4,MMH,med,in
+MCI-RM5,MCI-RM5,MMH,med,in
+MCI-RM9,MCI-RM9,MMH,med,in
+mi,mi,MMH,med,in
+MI,MI,MMH,med,in
+mi-1,mi-1,MMH,med,in
+mi-2,mi-2,MMH,med,in
+mi-r,mi-r,MMH,med,in
+mi-r,mi-r,MMH,med,in
+misc1,misc1,MMH,ped,in
+misc2,misc2,MMH,ped,in
+misc2,misc2,MMH,ped,in
+mow,mow,MMH,sur,in
+MOW,MOW,MMH,sur,in
+mrsa,mrsa,MMH,med,in
+nicu,nicu,MMH,icu,in
+nicu-isol,nicu-isol,MMH,icu,in
+N-ISOL,N-ISOL,MMH,neo,in
+N-WARD,N-WARD,MMH,med,in
+O,opd,MMH,out,out
+obn,obn,MMH,obg,in
+obw,obw,MMH,obg,in
+obw1,obw1,MMH,obg,in
+OP,OP,MMH,out,out
+opd,opd,MMH,out,Out
+OPD,OPD,MMH,out,out
+ope,ope,MMH,out,out
+opg,opg,MMH,out,out
+opi,opi,MMH,out,out
+opm,opm,MMH,med,out
+opn,opn,MMH,out,out
+opo,opo,MMH,ortho,out
+opp,opp,MMH,ped,out
+ops,ops,MMH,sur,out
+opy,opy,MMH,out,out
+ortho,ortho,MMH,sur,in
+OU,OU,MMH,out,out
+OU,opd,MMH,out,out
+P-,P-,MMH,ped,in
+P-,P-,MMH,ped,in
+P.GSW,P.GSW,MMH,sur,in
+P.GSW,pgsw,MMH,sur,in
+p.isol,p.isol,MMH,ped,in
+p.isol,P-ISOL,MMH,ped,in
+p.med,p.med,MMH,ped,in
+p.med,P-MED,MMH,ped,in
+p.misc,p.misc,MMH,ped,in
+p.respi,p.respi,MMH,ped,in
+PEDIA EXT,PEDIA EXT,MMH,ped,in
+P-EXT,P-EXT,MMH,ped,in
+p-gastro,p-gastro,MMH,ped,in
+pgsw,pgsw,MMH,sur,in
+p-gsw,p-gsw,MMH,sur,in
+P-GSW,P-GSW,MMH,sur,in
+picu,picu,MMH,icu,in
+p-isol,p-isol,MMH,ped,in
+P-ISOL,P-ISOL,MMH,ped,in
+P-ISOL,P-ISOL,MMH,ped,in
+P-MED,P-MED,MMH,ped,in
+P-MED,P-MED,MMH,ped,in
+pmisc,pmisc,MMH,ped,in
+pmisc,pmisc,MMH,ped,in
+p-misc,p-misc,MMH,ped,in
+pmisc1,pmisc1,MMH,ped,in
+p-misc1,p-misc1,MMH,ped,in
+pmisc2,pmisc2,MMH,ped,in
+p-misc2,p-misc2,MMH,ped,in
+p-misc2,p-misc2,MMH,ped,in
+P-misci,P-misci,MMH,ped,in
+POW,POW,MMH,ped,in
+p-respi,p-respi,MMH,ped,in
+prisol,prisol,MMH,ped,in
+prisol,prisol,MMH,ped,in
+prisol,prisol,MMH,ped,in
+P-R-ISOL,P-R-ISOL,MMH,med,in
+P-R-ISOL,P-R-ISOL,MMH,ped,in
+P-R-ISOL,P-ISOL,MMH,med,in
+psy,psy,MMH,psy,out
+res,res,MMH,oth,oth
+respi,respi,MMH,ped,in
+rm 11,rm 11,MMH,med,in
+rm 11,rm11,MMH,med,in
+rm 15,rm 15,MMH,med,in
+RM 15,RM 15,MMH,med,in
+RM 15,rm15,MMH,med,in
+rm 16,rm 16,MMH,med,in
+rm 16,rm16,MMH,med,in
+rm 17,rm 17,MMH,med,in
+rm 17,rm17,MMH,med,in
+RM 4,RM 4,MMH,med,in
+RM 4,rm4,MMH,med,in
+Rm11,Rm11,MMH,med,in
+RM15,RM15,MMH,med,in
+rm-16,rm-16,MMH,med,in
+ROOM 15,ROOM 15,MMH,med,in
+ROOM 15,rm15,MMH,med,in
+room11,room11,MMH,med,in
+room11,rm11,MMH,med,in
+room15,room15,MMH,med,in
+room15,room15,MMH,med,in
+room15,rm15,MMH,med,in
+room16,room16,MMH,med,in
+room16,rm16,MMH,med,in
+sci,sci,MMH,med,in
+sci,sci,MMH,med,in
+sci,sci,MMH,med,in
+SCI_A1,SCI_A1,MMH,med,in
+SCI_A1,SCI_A1,MMH,med,in
+SCI_B,SCI_B,MMH,med,in
+SCI_B,SCI_B,MMH,med,in
+SCI_B1,SCI_B1,MMH,med,in
+SCI_B1,SCI_B1,MMH,med,in
+SCI-1,SCI-1,MMH,med,in
+SCI-1,SCI_B1,MMH,med,in
+sci-a1,sci-a1,MMH,med,in
+SCI-B1,SCI-B1,MMH,med,in
+SCI-B1,SCI_B1,MMH,med,in
+sic,sic,MMH,mix,out
+sic,sic,MMH,mix,out
+sicu,sicu,MMH,icu,in
+sicu,sicu,MMH,icu,in
+sicu,sicu,MMH,icu,in
+spwr,spwr,MMH,unk,in
+URO,URO,MMH,sur,in
+URO,URO,MMH,med,in
+URO,URO,MMH,sur,in
+URO,URO,MMH,med,in
+w1,w1,MMH,med,in
+w-1,w-1,MMH,med,in
+w-10,w-10,MMH,med,in
+w1a-8,w1a-8,MMH,med,in
+w2,w2,MMH,med,in
+w3,w3,MMH,med,in
+w-3,w-3,MMH,med,in
+w4,w4,MMH,med,in
+w5,w5,MMH,med,in
+w-5,w-5,MMH,med,in
+w-6,w-6,MMH,med,in
+w7,w7,MMH,med,in
+w-7,w-7,MMH,med,in
+w8,w8,MMH,med,in
+w-8,w-8,MMH,med,in
+w9,w9,MMH,med,in
+w-9,w-9,MMH,med,in
+ward,ward,MMH,med,in
+ward,ward,MMH,med,in
+WARD  2,WARD  2,MMH,med,in
+WARD  2,ward 2,MMH,med,in
+ward 1,ward 1,MMH,med,in
+ward 1,ward 1,MMH,med,in
+ward 1,ward 1,MMH,med,in
+ward 1,ward 1,MMH,med,in
+ward 10,ward 10,MMH,med,in
+WARD 10,WARD 10,MMH,med,in
+ward 10,ward 10,MMH,med,in
+WARD 10,ward 10,MMH,med,in
+ward 1b,ward 1b,MMH,med,in
+WARD 1O,WARD 1O,MMH,med,in
+WARD 1O,ward 10,MMH,med,in
+ward 2,ward 2,MMH,med,in
+ward 2,ward 2,MMH,med,in
+ward 2,ward 2,MMH,med,in
+ward 3,ward 3,MMH,med,in
+ward 3,ward 3,MMH,med,in
+ward 4,ward 4,MMH,med,in
+ward 4,ward 4,MMH,med,in
+ward 5,ward 5,MMH,med,in
+ward 5,ward 5,MMH,med,in
+ward 6,ward 6,MMH,med,in
+ward 6,ward 6,MMH,med,in
+ward 6,ward 6,MMH,med,in
+ward 6,ward 6,MMH,med,in
+ward 7,ward 7,MMH,med,in
+ward 7,ward 7,MMH,med,in
+ward 8,ward 8,MMH,med,in
+ward 8,ward 8,MMH,med,in
+ward 8,ward 8,MMH,med,in
+ward 9,ward 9,MMH,med,in
+ward 9,ward 9,MMH,med,in
+ward1,ward1,MMH,med,in
+WARD10,WARD10,MMH,med,in
+WARD10,ward 10,MMH,med,in
+ward2,ward2,MMH,med,in
+ward5,ward5,MMH,med,in
+ward6,ward6,MMH,med,in
+wd,unk,MMH,unk,in
+,unk,MMH,unk,unk
+icu,icu,NKI,icu,in
+atc,atc,NKI,lab,lab
+emr,emr,NKI,eme,eme
+icu,icu,NKI,mix,in
+opd,opd,NKI,mix,out
+pwd,pwd,NKI,ped,in
+w2a,w2a,NKI,mix,in
+w2b,w2b,NKI,mix,in
+w2c,w2c,NKI,mix,in
+w2d,w2d,NKI,mix,in
+w2e,w2e,NKI,mix,in
+w3a,w3a,NKI,mix,in
+w3b,w3b,NKI,mix,in
+w3c,w3c,NKI,mix,in
+w3d,w3d,NKI,mix,in
+w3e,w3e,NKI,mix,in
+w3f,w3f,NKI,ped,in
+2a,w2a,NKI,mix,in
+2b,w2b,NKI,mix,in
+2c,w2c,NKI,mix,in
+2d,w2d,NKI,mix,in
+2e,w2e,NKI,mix,in
+3a,w3a,NKI,mix,in
+3b,w3b,NKI,mix,in
+3c,w3c,NKI,mix,in
+3d,w3d,NKI,mix,in
+3e,w3e,NKI,mix,in
+3f,w3f,NKI,ped,in
+eme,emr,NKI,eme,eme
+er,emr,NKI,eme,eme
+2f,w2f,NKI,mix,in
+w2f,w2f,NKI,mix,in
+2g,2g,NKI,mix,in
+el,el,NKI,mix,in
+imcu,imcu,NKI,int,in
+op,opd,NKI,out,out
+pd,pd,NKI,mix,in
+\,\,NMC,unk,unk
+]OPD,opd,NMC,out,out
+4TH,4TH,NMC,med,in
+4TH FL,4TH FL,NMC,med,in
+4THFLR,4THFLR,NMC,med,in
+5/6 FL,5/6 FL,NMC,med,in
+5/F,5TH,NMC,ortho,in
+5/F,5/F,NMC,med,in
+5FLR,5FLR,NMC,obg,in
+5H FL,5H FL,NMC,med,in
+5TH,5TH,NMC,ortho,in
+5TH,5TH,NMC,med,in
+5TH FL,5TH,NMC,ortho,in
+5th fl,5th fl,NMC,med,in
+6 FLR,6TH,NMC,mix,in
+6/F,6/F,NMC,med,in
+6/F,6/F,NMC,ped,in
+6F,6F,NMC,med,in
+6HT FL,6HT FL,NMC,med,in
+6TH,6TH,NMC,mix,in
+6TH FL,6TH,NMC,mix,in
+6TH FL,6TH FL,NMC,med,in
+6THFLR,6THFLR,NMC,mix,in
+A1F1,A1F1,NMC,med,in
+BED# 2,BED# 2,NMC,med,in
+CKD,CKD,NMC,med,in
+E-+1,E-+1,NMC,med,in
+E-1,E-1,NMC,med,in
+E-2,E-2,NMC,med,in
+E-3,E-3,NMC,med,in
+En-1,En-1,NMC,med,in
+En-2,En-2,NMC,med,in
+En-3,En-3,NMC,med,in
+ENC 2,ENC 2,NMC,med,in
+enclosure 1,En-1,NMC,med,in
+ENT,ENT,NMC,ent,in
+ENT ER,ENT ER,NMC,ent,in
+ER,ER,NMC,eme,eme
+ER FAM,ER FAM,NMC,med,eme
+ER IM,ER-IM,NMC,med,eme
+ER IM,ER IM,NMC,med,in
+ER PED,ER PED,NMC,ped,in
+ER SX,ER-SX,NMC,sur,eme
+EREID,EREID,NMC,med,in
+EREID-,EREID,NMC,med,in
+ER-FAM,ER-FAM,NMC,med,in
+ERID-1,ERID-1,NMC,med,in
+ERID-2,ERID-2,NMC,med,in
+ERID-3,ERID-3,NMC,med,in
+ER-IM,ER-IM,NMC,med,in
+ER-M,ER-IM,NMC,med,in
+ER-OB,ER-OB,NMC,obg,eme
+ER-PED,ER-PED,NMC,ped,eme
+ER-SUR,ER-SX,NMC,sur,eme
+ER-SX,ER-SX,NMC,sur,in
+FAMED,FAMED,NMC,med,in
+GYNE,GYNE,NMC,obg,in
+HDU,HDU,NMC,med,in
+ICC,ICC,NMC,med,in
+icu,icu,NMC,icu,in
+ICV,ICU,NMC,icu,in
+IM,IM,NMC,med,in
+IM ER,ER-IM,NMC,med,eme
+IM -ER,ER-IM,NMC,med,eme
+IM.5,IM-5,NMC,med,in
+IM-2,IM-2,NMC,med,in
+IMCU,IMCU,NMC,icu,in
+IM-ER,ER-IM,NMC,med,eme
+IOPD,IOPD,NMC,med,in
+ISOL,ISOL,NMC,med,in
+ISOL 2,ISOL 2,NMC,med,in
+MED,MED,NMC,med,out
+MICU,MICU,NMC,neo,in
+MICU-D,MICU-D,NMC,icu,in
+ML,ML,NMC,mix,in
+MW 3,MW 3,NMC,med,in
+MW 5,MW 5,NMC,med,in
+N ICU,nicu,NMC,neo,in
+NB,NBW,NMC,neo,in
+NBW,NBW,NMC,neo,in
+NBWARD,NBW,NMC,neo,in
+NCCU,NCCU,NMC,icu,in
+NEURO,NEURO,NMC,med,in
+neuro,NEURO,NMC,med,in
+neuro stroke,NEURO,NMC,med,in
+NEWBOR,NBW,NMC,neo,in
+NEWBRN,NBW,NMC,neo,in
+NI9CU,nicu,NMC,neo,in
+nicu,nicu,NMC,neo,in
+NMMC,NMMC,NMC,icu,in
+NWARD,NWARD,NMC,med,in
+NWB-3,NWB-3,NMC,obg,in
+NWB-5,NWB-5,NMC,ortho,in
+NWB-5T,NWB-5T,NMC,ortho,in
+NWBORN,NBW,NMC,neo,in
+O3F3,O3F3,NMC,ped,in
+OB,OB,NMC,obg,in
+OB 4TH,OB 4TH,NMC,obg,in
+OB ER,OB ER,NMC,obg,in
+OB -ER,OB ER,NMC,obg,in
+OB MAI,OB MAI,NMC,obg,in
+OB PAY,OB-PAY,NMC,obg,in
+OB W,OBWARD,NMC,obg,in
+OB WAR,OBWARD,NMC,obg,in
+OB WRD,OBWARD,NMC,obg,in
+OB-6TH,OB-6TH,NMC,obg,in
+OB-ER,OB-ER,NMC,obg,eme
+ob-er,ob-er,NMC,obg,in
+OBGYN,OBWARD,NMC,obg,in
+OB-ISO,OB-ISO,NMC,obg,in
+OB-OPD,OB-OPD,NMC,obg,out
+OBPAY,OB-PAY,NMC,obg,in
+OB-PAY,OB-PAY,NMC,obg,in
+OBPAYW,OB-PAY,NMC,obg,in
+OBPYA,OB-PAY,NMC,obg,in
+OBW,OBWARD,NMC,obg,in
+OB-W,OBWARD,NMC,obg,in
+OBWAR,OBWARD,NMC,obg,in
+OB-WAR,OBWARD,NMC,obg,in
+OBWARD,OBWARD,NMC,obg,in
+ONCO,ONCO,NMC,med,in
+OOB,OBWARD,NMC,obg,in
+OP,opd,NMC,out,out
+OP1F3,OP1F3,NMC,med,in
+OPC,opd,NMC,med,out
+opd,opd,NMC,out,out
+OPD-GY,OPD-GY,NMC,obg,out
+OPDN,opd,NMC,out,out
+OPDNMC,opd,NMC,med,out
+OPP,opp,NMC,ped,out
+OPTHA,OPTHA,NMC,optha,in
+OR,OR,NMC,sur,in
+ORTHIO,ortho,NMC,ortho,in
+ortho,ortho,NMC,ortho,in
+OTHO,ortho,NMC,ortho,in
+out,opd,NMC,out,out
+P 3F3,P3F3,NMC,mix,in
+P03F4,P3F4,NMC,sur,in
+P1F2,p1f2,NMC,med,in
+P1F2,P1F2,NMC,ortho,in
+p1f3,p1f3,NMC,med,in
+P1F3,P1F3,NMC,ped,in
+P2F2,P2F2,NMC,mix,in
+p2f2,p2f2,NMC,med,in
+P2F2,P2F2,NMC,mix,in
+P2F2-S,P2F2-S,NMC,med,in
+P2F3,P2F3,NMC,med,in
+P3D3,P3D3,NMC,med,in
+P3F1,P3F1,NMC,med,in
+p3f2,p3f2,NMC,med,in
+P3F2,P3F2,NMC,icu,in
+P3F2-4,p3f2,NMC,med,in
+P3F3,P3F3,NMC,mix,in
+p3f3,p3f3,NMC,ped,in
+P3F3`,P3F3,NMC,mix,in
+P3F32,P3F3,NMC,mix,in
+P3F3NM,P3F3,NMC,mix,in
+P3F3U,P3F3,NMC,mix,in
+P3F4,P3F4,NMC,med,in
+P3F45,P3F45,NMC,sur,in
+P4F2,P4F2,NMC,mix,in
+P4F2-X,P4F2,NMC,med,in
+PACU,PACU,NMC,ped,in
+PAY RM,PAYRM,NMC,med,in
+PAYRM,PAYRM,NMC,med,in
+PAY-RM,PAYRM,NMC,med,in
+PAYROO,PAYWRD,NMC,med,in
+PAYROO,PAYROO,NMC,med,in
+PAYWRD,PAYWRD,NMC,med,in
+PB# 16,PB# 16,NMC,unk,unk
+PCCU,PCCU,NMC,icu,in
+PD,PEDIA,NMC,ped,in
+PED,PEDIA,NMC,ped,in
+PED ER,PED ER,NMC,ped,in
+PED-ER,PED-ER,NMC,ped,in
+PEDIA,PEDIA,NMC,ped,in
+phil,phil,NMC,obg,in
+PI1F3,p1f3,NMC,med,in
+PI3F2,p3f2,NMC,med,in
+picu,picu,NMC,icu,in
+PICU,PICU,NMC,neo,in
+PIF3,p1f3,NMC,med,in
+PULMO,PULMO,NMC,med,in
+RM 602,RM 602,NMC,ped,in
+RM 603,RM 603,NMC,med,in
+RM 615,RM 615,NMC,med,in
+ROOM B,ROOM B,NMC,med,in
+SICU,SICU,NMC,icu,in
+sicu,SICU,NMC,icu,in
+SICU-5,SICU,NMC,sur,in
+SR #4,SR #4,NMC,med,in
+SR#11,SR#11,NMC,med,in
+SR#3,SR#3,NMC,med,in
+SR#6,SR#6,NMC,med,in
+SR.4,SR.4,NMC,med,in
+ST . 2,ST 2,NMC,med,in
+ST . 5,ST 5,NMC,med,in
+ST .2,ST 2,NMC,med,in
+ST .5,ST 5,NMC,med,in
+ST 1,ST 1,NMC,med,in
+st 1,ST 1,NMC,med,in
+ST 2,ST 2,NMC,med,in
+st 2,ST 2,NMC,med,in
+ST 3,ST 3,NMC,med,in
+ST 4,ST 4,NMC,med,in
+ST 5,ST 5,NMC,med,in
+"ST, 1",ST 1,NMC,med,in
+"ST, 2",ST 2,NMC,med,in
+"ST, 3",ST 3,NMC,med,in
+"ST, 4",ST 4,NMC,med,in
+"ST, 5",ST 5,NMC,med,in
+"ST,5",ST 5,NMC,med,in
+ST.,ST,NMC,med,in
+ST.  1,ST 1,NMC,med,in
+ST.  4,ST 4,NMC,med,in
+st. 1,ST 1,NMC,med,in
+ST. 1,ST 1,NMC,med,in
+ST. 2,ST 2,NMC,med,in
+ST. 3,ST 3,NMC,med,in
+ST. 4,ST 4,NMC,med,in
+ST. 5,ST 5,NMC,med,in
+ST. 6,ST 6,NMC,med,in
+ST.01,ST 1,NMC,med,in
+ST.06,ST 6,NMC,med,in
+st.1,ST 1,NMC,med,in
+ST.1,ST 1,NMC,med,in
+st.2,ST 2,NMC,med,in
+ST.3,ST 3,NMC,med,in
+ST.3,ST 3,NMC,ent,in
+ST.4,ST 4,NMC,med,in
+st.4,st.4,NMC,med,in
+ST.4,ST 4,NMC,ortho,in
+ST.5,ST 5,NMC,med,in
+st.5,st.5,NMC,med,in
+ST.5,ST 5,NMC,ped,in
+ST.6,ST 6,NMC,med,in
+ST1,ST 1,NMC,icu,in
+ST2,ST 2,NMC,med,in
+ST3,ST 3,NMC,med,in
+ST5,ST 5,NMC,med,in
+ST6,ST 6,NMC,med,in
+ST6.2,ST6.2,NMC,med,in
+STA 1,STA 1,NMC,med,in
+STA 2,STA 2,NMC,med,in
+STA 3,STA 3,NMC,med,in
+STA 4,STA 4,NMC,med,in
+STA 5,STA 5,NMC,med,in
+STA 6,STA 6,NMC,med,in
+STE. 3,STE. 3,NMC,med,in
+sti,SUITE,NMC,mix,in
+SUITE,SUITE,NMC,mix,in
+SUR,SUR,NMC,sur,in
+SURG,SUR,NMC,sur,in
+"SURG,",SUR,NMC,sur,in
+SURG.,SUR,NMC,sur,in
+SURGE,SURGE,NMC,sur,in
+surgery,SUR,NMC,sur,in
+surgical,SUR,NMC,sur,in
+SX,SUR,NMC,sur,in
+SX ER,SX ER,NMC,sur,eme
+WD,WD,NMC,mix,in
+,unk,NMC,med,in
+ER,ER,ONP,eme,eme
+fmw,fmw,ONP,med,in
+HRPU,HRPU,ONP,unk,unk
+icu,icu,ONP,icu,in
+mmw,mmw,ONP,med,in
+neo,neo,ONP,ped,in
+nicu,nicu,ONP,icu,in
+ob,ob,ONP,obg,in
+opd,opd,ONP,out,out
+OPD-SO,OPD-SO,ONP,out,out
+ped,ped,ONP,ped,in
+pedia,ped,ONP,ped,in
+picu,picu,ONP,icu,in
+RESPI,RESPI,ONP,unk,in
+rtc,rtc,ONP,out,out
+sx,sx,ONP,sur,in
+1,1,PGH,med,in
+2,2,PGH,sur,in
+3,3,PGH,med,in
+4,4,PGH,sur,in
+5,5,PGH,neuro,in
+6,6,PGH,sur,in
+8,8,PGH,ortho,in
+9,9,PGH,ped,in
+10,10,PGH,ent,mix
+11,11,PGH,ped,in
+15,15,PGH,obg,in
+16,16,PGH,obg,in
+66,66,PGH,pay,in
+123,123,PGH,pay,in
+147,147,PGH,med,in
+247,247,PGH,pay,in
+308,308,PGH,med,in
+386,386,PGH,med,in
+401,401,PGH,pay,in
+402,402,PGH,pay,in
+403,403,PGH,pay,in
+404,404,PGH,pay,in
+405,405,PGH,pay,in
+406,406,PGH,pay,in
+408,408,PGH,sur,in
+409,409,PGH,sur,in
+414,414,PGH,pay,in
+417,417,PGH,pay,in
+419,419,PGH,pay,in
+420,420,PGH,pay,in
+422,422,PGH,pay,in
+423,423,PGH,pay,in
+424,424,PGH,pay,in
+425,425,PGH,pay,in
+426,426,PGH,pay,in
+427,427,PGH,pay,in
+428,428,PGH,pay,in
+429,429,PGH,pay,in
+430,430,PGH,pay,in
+431,431,PGH,pay,in
+432,432,PGH,pay,in
+433,433,PGH,pay,in
+434,434,PGH,sur,in
+434,434,PGH,pay,in
+435,435,PGH,sur,in
+436,436,PGH,sur,in
+437,437,PGH,pay,in
+438,438,PGH,pay,in
+439,439,PGH,pay,in
+440,440,PGH,pay,in
+441,441,PGH,pay,in
+442,442,PGH,pay,in
+443,443,PGH,pay,in
+444,444,PGH,mix,in
+445,445,PGH,pay,in
+446,446,PGH,pay,in
+447,447,PGH,pay,in
+448,448,PGH,pay,in
+449,449,PGH,pay,in
+450,450,PGH,pay,in
+451,451,PGH,pay,in
+452,452,PGH,pay,in
+453,453,PGH,pay,in
+454,454,PGH,pay,in
+501,501,PGH,pay,in
+502,502,PGH,pay,in
+503,503,PGH,pay,in
+504,504,PGH,pay,in
+505,505,PGH,pay,in
+506,506,PGH,pay,in
+507,507,PGH,pay,in
+508,508,PGH,pay,in
+509,509,PGH,pay,in
+510,510,PGH,pay,in
+511,511,PGH,pay,in
+512,512,PGH,pay,in
+513,513,PGH,pay,in
+514,514,PGH,pay,in
+515,515,PGH,pay,in
+516,516,PGH,pay,in
+517,517,PGH,pay,in
+518,518,PGH,pay,in
+519,519,PGH,pay,in
+520,520,PGH,pay,in
+521,521,PGH,pay,in
+522,522,PGH,pay,in
+523,523,PGH,pay,in
+524,524,PGH,pay,in
+525,525,PGH,pay,in
+526,526,PGH,pay,in
+527,527,PGH,pay,in
+528,528,PGH,pay,in
+529,529,PGH,pay,in
+530,530,PGH,pay,in
+531,531,PGH,pay,in
+532,532,PGH,pay,in
+533,533,PGH,pay,in
+534,534,PGH,pay,in
+534,534,PGH,pay,
+535,535,PGH,pay,in
+536,536,PGH,pay,in
+537,537,PGH,pay,in
+538,538,PGH,pay,in
+539,539,PGH,pay,in
+540,540,PGH,pay,in
+541,541,PGH,pay,in
+542,542,PGH,pay,in
+543,543,PGH,pay,in
+544,544,PGH,pay,in
+545,545,PGH,pay,in
+546,546,PGH,pay,in
+547,547,PGH,pay,in
+548,548,PGH,pay,in
+549,549,PGH,pay,in
+550,550,PGH,pay,in
+551,551,PGH,mix,in
+552,552,PGH,pay,in
+553,553,PGH,pay,in
+554,554,PGH,pay,in
+555,555,PGH,pay,in
+556,556,PGH,pay,in
+557,557,PGH,pay,in
+558,558,PGH,pay,in
+559,559,PGH,pay,in
+560,560,PGH,pay,in
+561,561,PGH,pay,in
+562,562,PGH,pay,in
+563,563,PGH,pay,in
+564,564,PGH,pay,in
+565,565,PGH,pay,in
+566,566,PGH,pay,in
+567,567,PGH,pay,in
+568,568,PGH,pay,in
+569,569,PGH,pay,in
+570,570,PGH,pay,in
+571,571,PGH,pay,in
+572,572,PGH,pay,in
+577,577,PGH,pay,in
+583,583,PGH,pay,in
+601,601,PGH,pay,in
+602,602,PGH,mix,in
+603,603,PGH,pay,in
+604,604,PGH,pay,in
+605,605,PGH,mix,in
+606,606,PGH,pay,in
+607,607,PGH,pay,in
+608,608,PGH,pay,in
+608,608,PGH,mix,in
+609,609,PGH,pay,in
+610,610,PGH,pay,in
+611,611,PGH,pay,in
+612,612,PGH,pay,in
+613,613,PGH,pay,in
+614,614,PGH,pay,in
+615,615,PGH,pay,in
+616,616,PGH,pay,in
+618,618,PGH,pay,in
+619,619,PGH,pay,in
+620,620,PGH,pay,in
+621,621,PGH,pay,in
+621,621,PGH,mix,in
+622,622,PGH,pay,in
+624,624,PGH,pay,in
+626,626,PGH,pay,in
+627,627,PGH,pay,in
+628,628,PGH,pay,in
+628,628,PGH,mix,in
+629,629,PGH,pay,in
+630,630,PGH,mix,in
+631,631,PGH,pay,in
+632,632,PGH,pay,in
+633,633,PGH,pay,in
+634,634,PGH,pay,in
+635,635,PGH,pay,in
+636,636,PGH,pay,in
+637,637,PGH,pay,in
+638,638,PGH,pay,in
+639,639,PGH,pay,in
+640,640,PGH,pay,in
+641,641,PGH,pay,in
+655,655,PGH,pay,in
+656,656,PGH,pay,in
+661,661,PGH,pay,in
+672,672,PGH,pay,in
+701,701,PGH,pay,in
+702,702,PGH,pay,in
+703,703,PGH,pay,in
+704,704,PGH,pay,in
+705,705,PGH,pay,in
+706,706,PGH,sur,in
+707,707,PGH,pay,in
+708,708,PGH,pay,in
+709,709,PGH,pay,in
+710,710,PGH,mix,in
+711,711,PGH,mix,in
+712,712,PGH,pay,in
+713,713,PGH,pay,in
+714,714,PGH,pay,in
+715,715,PGH,pay,in
+716,716,PGH,pay,in
+717,717,PGH,pay,in
+718,718,PGH,pay,in
+719,719,PGH,pay,in
+720,720,PGH,pay,in
+721,721,PGH,pay,in
+722,722,PGH,pay,in
+723,723,PGH,pay,in
+724,724,PGH,pay,in
+725,725,PGH,pay,in
+726,726,PGH,pay,in
+727,727,PGH,pay,in
+728,728,PGH,mix,mix
+729,729,PGH,pay,in
+730,730,PGH,mix,in
+731,731,PGH,mix,in
+732,732,PGH,pay,in
+733,733,PGH,pay,in
+734,734,PGH,pay,in
+735,735,PGH,mix,in
+736,736,PGH,pay,in
+737,737,PGH,pay,in
+738,738,PGH,oth,in
+738,738,PGH,med,in
+739,739,PGH,pay,in
+740,740,PGH,pay,in
+741,741,PGH,pay,in
+742,742,PGH,pay,in
+743,743,PGH,pay,in
+744,744,PGH,pay,in
+745,745,PGH,mix,in
+746,746,PGH,pay,in
+747,747,PGH,pay,in
+749,749,PGH,pay,in
+750,750,PGH,mix,in
+751,751,PGH,pay,in
+752,752,PGH,pay,in
+753,753,PGH,pay,in
+754,754,PGH,mix,in
+755,755,PGH,pay,in
+756,756,PGH,pay,in
+757,757,PGH,pay,in
+758,758,PGH,pay,in
+759,759,PGH,pay,in
+760,760,PGH,pay,in
+762,762,PGH,oth,in
+763,763,PGH,mix,in
+783,783,PGH,pay,in
+923,923,PGH,mix,in
+31-02,31-02,PGH,sur,in
+31-11,31-11,PGH,ped,in
+32-02,32-02,PGH,sur,in
+32-03,32-03,PGH,med,in
+32-10,32-10,PGH,ent,mix
+33-03,33-03,PGH,med,in
+33-06,33-06,PGH,sur,in
+33-08,33-08,PGH,ortho,in
+33-11,33-11,PGH,unk,in
+34-01,34-01,PGH,,
+34-03,34-03,PGH,med,in
+34-06,34-06,PGH,sur,in
+34-08,34-08,PGH,ortho,in
+34-09,34-09,PGH,,
+34-11,34-11,PGH,,
+35-01,35-01,PGH,,
+35-03,35-03,PGH,,
+35-04,35-04,PGH,,
+35-06,35-06,PGH,sur,in
+35-08,35-08,PGH,ortho,in
+35-09,35-09,PGH,,
+35-10,35-10,PGH,ent,mix
+36-01,36-01,PGH,med,in
+36-03,36-03,PGH,med,in
+36-08,36-08,PGH,ortho,in
+36-11,36-11,PGH,ped,in
+37-01,37-01,PGH,med,in
+37-02,37-02,PGH,,
+37-06,37-06,PGH,sur,in
+38-06,38-06,PGH,sur,in
+38-08,38-08,PGH,ortho,in
+39-01,39-01,PGH,,
+39-02,39-02,PGH,sur,in
+39-08,39-08,PGH,ortho,in
+40-01,40-01,PGH,,
+40-02,40-02,PGH,sur,in
+40-03,40-03,PGH,med,in
+40-06,40-06,PGH,sur,in
+40-06,40-06,PGH,,
+41-03,41-03,PGH,med,in
+41-03,41-03,PGH,,in
+41-08,41-08,PGH,ortho,in
+42-01,42-01,PGH,med,in
+42-02,42-02,PGH,sur,in
+42-03,42-03,PGH,,
+42-04,42-04,PGH,,
+42-08,42-08,PGH,ortho,in
+43-02,43-02,PGH,sur,in
+43-06,43-06,PGH,sur,in
+43-08,43-08,PGH,unk,in
+44-02,44-02,PGH,sur,in
+44-03,44-03,PGH,med,in
+45-01,45-01,PGH,,
+45-03,45-03,PGH,,
+45-04,45-04,PGH,,
+45-06,45-06,PGH,,
+46-01,46-01,PGH,med,in
+46-02,46-02,PGH,sur,in
+47-01,47-01,PGH,med,in
+47-02,47-02,PGH,sur,in
+48-01,48-01,PGH,med,in
+48-02,48-02,PGH,sur,in
+48-03,48-03,PGH,,
+48-08,48-08,PGH,ortho,in
+50-02,50-02,PGH,sur,in
+50-04,50-04,PGH,,
+50-08,50-08,PGH,,
+51-02,51-02,PGH,sur,in
+51-08,51-08,PGH,ortho,in
+52-02,52-02,PGH,sur,in
+52-04,52-04,PGH,sur,in
+52-06,52-06,PGH,,
+52-08,52-08,PGH,,
+53-02,53-02,PGH,sur,in
+53-04,53-04,PGH,sur,in
+53-06,53-06,PGH,sur,in
+54-02,54-02,PGH,sur,in
+54-04,54-04,PGH,sur,in
+54-08,54-08,PGH,ortho,in
+55-02,55-02,PGH,sur,in
+55-04,55-04,PGH,sur,in
+55-06,55-06,PGH,sur,in
+56-04,56-04,PGH,sur,in
+57-02,57-02,PGH,sur,in
+57-06,57-06,PGH,sur,in
+58-02,58-02,PGH,sur,in
+58-06,58-06,PGH,sur,in
+59-02,59-02,PGH,sur,in
+20-01,20-01,PGH,med,in
+20-01,20-01,PGH,med,in
+20-01,20-01,PGH,med,in
+20-01,20-01,PGH,med,in
+20-01,20-01,PGH,med,in
+20-01,20-01,PGH,med,in
+20-01,20-01,PGH,med,in
+20-01,20-01,PGH,med,in
+20-01,20-01,PGH,med,in
+20-01,20-01,PGH,med,in
+20-01,20-01,PGH,med,in
+20-01,20-01,PGH,med,in
+20-01,20-01,PGH,med,in
+20-01,20-01,PGH,med,in
+20-02,20-02,PGH,sur,in
+20-02,20-02,PGH,sur,in
+20-02,20-02,PGH,sur,in
+20-02,20-02,PGH,sur,in
+20-02,20-02,PGH,sur,in
+20-02,20-02,PGH,sur,in
+20-02,20-02,PGH,sur,in
+20-02,20-02,PGH,sur,in
+20-02,20-02,PGH,sur,in
+20-02,20-02,PGH,sur,in
+20-02,20-02,PGH,sur,in
+20-02,20-02,PGH,sur,in
+20-02,20-02,PGH,sur,in
+20-03,20-03,PGH,med,in
+20-03,20-03,PGH,med,in
+20-03,20-03,PGH,med,in
+20-03,20-03,PGH,med,in
+20-03,20-03,PGH,med,in
+20-03,20-03,PGH,med,in
+20-03,20-03,PGH,med,in
+20-03,20-03,PGH,med,in
+20-03,20-03,PGH,med,in
+20-03,20-03,PGH,med,in
+20-03,20-03,PGH,med,in
+20-03,20-03,PGH,med,in
+20-03,20-03,PGH,med,in
+20-03,20-03,PGH,med,in
+20-03,20-03,PGH,med,in
+20-03,20-03,PGH,med,in
+20-03,20-03,PGH,med,in
+20-03,20-03,PGH,med,in
+20-03,20-03,PGH,med,in
+20-04,20-04,PGH,sur,in
+20-04,20-04,PGH,sur,in
+20-04,20-04,PGH,sur,in
+20-04,20-04,PGH,sur,in
+20-04,20-04,PGH,sur,in
+20-04,20-04,PGH,sur,in
+20-04,20-04,PGH,sur,in
+20-04,20-04,PGH,sur,in
+20-04,20-04,PGH,sur,in
+20-04,20-04,PGH,sur,in
+20-05,20-05,PGH,pay,in
+20-05,20-05,PGH,pay,in
+20-05,20-05,PGH,pay,in
+20-05,20-05,PGH,pay,in
+20-05,20-05,PGH,pay,in
+20-05,20-05,PGH,pay,in
+20-05,20-05,PGH,pay,in
+20-05,20-05,PGH,pay,in
+20-05,20-05,PGH,pay,in
+20-05,20-05,PGH,pay,in
+20-05,20-05,PGH,pay,in
+20-05,20-05,PGH,pay,in
+20-05,20-05,PGH,pay,in
+20-06,20-06,PGH,sur,in
+20-06,20-06,PGH,sur,in
+20-06,20-06,PGH,sur,in
+20-06,20-06,PGH,sur,in
+20-06,20-06,PGH,sur,in
+20-06,20-06,PGH,sur,in
+20-06,20-06,PGH,sur,in
+20-06,20-06,PGH,sur,in
+20-06,20-06,PGH,sur,in
+20-06,20-06,PGH,sur,in
+20-06,20-06,PGH,sur,in
+20-06,20-06,PGH,sur,in
+20-08,20-08,PGH,ortho,in
+20-08,20-08,PGH,ortho,in
+20-08,20-08,PGH,ortho,in
+20-08,20-08,PGH,ortho,in
+20-08,20-08,PGH,ortho,in
+20-08,20-08,PGH,ortho,in
+20-08,20-08,PGH,ortho,in
+20-08,20-08,PGH,ortho,in
+20-08,20-08,PGH,ortho,in
+20-08,20-08,PGH,ortho,in
+20-09,20-09,PGH,ped,in
+20-09,20-09,PGH,ped,in
+20-09,20-09,PGH,ped,in
+20-09,20-09,PGH,ped,in
+20-09,20-09,PGH,ped,in
+20-09,20-09,PGH,ped,in
+20-09,20-09,PGH,ped,in
+20-09,20-09,PGH,ped,in
+20-09,20-09,PGH,ped,in
+20-09,20-09,PGH,ped,in
+20-09,20-09,PGH,ped,in
+20-09,20-09,PGH,ped,in
+20-09,20-09,PGH,ped,in
+20-09,20-09,PGH,ped,in
+20-09,20-09,PGH,ped,in
+20-09,20-09,PGH,ped,in
+20-09,20-09,PGH,ped,in
+20-09,20-09,PGH,ped,in
+20-09,20-09,PGH,ped,in
+20-09,20-09,PGH,ped,in
+20-10,20-10,PGH,ent,mix
+20-10,20-10,PGH,ent,mix
+20-10,20-10,PGH,ent,mix
+20-10,20-10,PGH,ent,mix
+20-10,20-10,PGH,ent,mix
+20-10,20-10,PGH,ent,mix
+20-10,20-10,PGH,ent,mix
+20-10,20-10,PGH,ent,mix
+20-11,20-11,PGH,ped,in
+20-11,20-11,PGH,ped,in
+20-11,20-11,PGH,ped,in
+20-11,20-11,PGH,ped,in
+20-11,20-11,PGH,ped,in
+20-11,20-11,PGH,ped,in
+20-11,20-11,PGH,ped,in
+20-11,20-11,PGH,ped,in
+20-11,20-11,PGH,ped,in
+20-11,20-11,PGH,ped,in
+20-11,20-11,PGH,ped,in
+20-11,20-11,PGH,ped,in
+20-11,20-11,PGH,ped,in
+20-11,20-11,PGH,ped,in
+20-11,20-11,PGH,ped,in
+21-01,21-01,PGH,unk,in
+21-01,21-01,PGH,unk,in
+21-01,21-01,PGH,unk,in
+21-01,21-01,PGH,unk,in
+21-01,21-01,PGH,unk,in
+21-01,21-01,PGH,unk,in
+21-01,21-01,PGH,unk,in
+21-01,21-01,PGH,unk,in
+21-01,21-01,PGH,unk,in
+21-01,21-01,PGH,unk,in
+21-01,21-01,PGH,unk,in
+21-01,21-01,PGH,unk,in
+21-01,21-01,PGH,unk,in
+21-01,21-01,PGH,unk,in
+21-01,21-01,PGH,unk,in
+21-01,21-01,PGH,unk,in
+21-01,21-01,PGH,unk,in
+21-01,21-01,PGH,unk,in
+21-01,21-01,PGH,unk,in
+21-02,21-02,PGH,unk,in
+21-02,21-02,PGH,unk,in
+21-02,21-02,PGH,unk,in
+21-02,21-02,PGH,unk,in
+21-02,21-02,PGH,unk,in
+21-02,21-02,PGH,unk,in
+21-02,21-02,PGH,unk,in
+21-03,21-03,PGH,unk,in
+21-03,21-03,PGH,unk,in
+21-03,21-03,PGH,unk,in
+21-03,21-03,PGH,unk,in
+21-03,21-03,PGH,unk,in
+21-03,21-03,PGH,unk,in
+21-03,21-03,PGH,unk,in
+21-03,21-03,PGH,unk,in
+21-03,21-03,PGH,unk,in
+21-03,21-03,PGH,unk,in
+21-03,21-03,PGH,unk,in
+21-03,21-03,PGH,unk,in
+21-04,21-04,PGH,unk,in
+21-04,21-04,PGH,unk,in
+21-04,21-04,PGH,unk,in
+21-04,21-04,PGH,unk,in
+21-04,21-04,PGH,unk,in
+21-04,21-04,PGH,unk,in
+21-04,21-04,PGH,unk,in
+21-05,21-05,PGH,unk,in
+21-05,21-05,PGH,unk,in
+21-05,21-05,PGH,unk,in
+21-05,21-05,PGH,unk,in
+21-05,21-05,PGH,unk,in
+21-05,21-05,PGH,unk,in
+21-05,21-05,PGH,unk,in
+21-05,21-05,PGH,unk,in
+21-06,21-06,PGH,unk,in
+21-06,21-06,PGH,unk,in
+21-06,21-06,PGH,unk,in
+21-06,21-06,PGH,unk,in
+21-06,21-06,PGH,unk,in
+21-06,21-06,PGH,unk,in
+21-06,21-06,PGH,unk,in
+21-06,21-06,PGH,unk,in
+21-08,21-08,PGH,unk,in
+21-08,21-08,PGH,unk,in
+21-08,21-08,PGH,unk,in
+21-08,21-08,PGH,unk,in
+21-08,21-08,PGH,unk,in
+21-08,21-08,PGH,unk,in
+21-08,21-08,PGH,unk,in
+21-08,21-08,PGH,unk,in
+21-08,21-08,PGH,unk,in
+21-08,21-08,PGH,unk,in
+21-08,21-08,PGH,unk,in
+21-08,21-08,PGH,unk,in
+21-09,21-09,PGH,unk,in
+21-09,21-09,PGH,unk,in
+21-09,21-09,PGH,unk,in
+21-09,21-09,PGH,unk,in
+21-09,21-09,PGH,unk,in
+21-09,21-09,PGH,unk,in
+21-10,21-10,PGH,unk,in
+21-10,21-10,PGH,unk,in
+21-10,21-10,PGH,unk,in
+21-10,21-10,PGH,unk,in
+21-10,21-10,PGH,unk,in
+21-11,21-11,PGH,unk,in
+21-11,21-11,PGH,unk,in
+21-11,21-11,PGH,unk,in
+21-11,21-11,PGH,unk,in
+21-11,21-11,PGH,unk,in
+21-11,21-11,PGH,unk,in
+21-11,21-11,PGH,unk,in
+21-11,21-11,PGH,unk,in
+21-11,21-11,PGH,unk,in
+21-11,21-11,PGH,unk,in
+21-11,21-11,PGH,unk,in
+-,-,PGH,,
+1-,1-,PGH,unk,in
+11-,11-,PGH,unk,in
+14A,14A,PGH,sur,in
+14A,14A,PGH,,in
+14B,14B,PGH,obg,in
+14B,14B,PGH,,
+14b-,14b-,PGH,,in
+14B-12,14B-12,PGH,,
+14B-15,14B-15,PGH,obg,in
+14B-32,14B-32,PGH,,
+15-11,15-11,PGH,obg,in
+15-20,15-20,PGH,obg,in
+15-24,15-24,PGH,obg,in
+15-25,15-25,PGH,obg,in
+15-37,15-37,PGH,,
+15-40,15-40,PGH,,
+15-5,15-5,PGH,obg,in
+15-8,15-8,PGH,obg,in
+16-12,16-12,PGH,obg,in
+16-13,16-13,PGH,obg,in
+16-17,16-17,PGH,,
+16-2,16-2,PGH,,
+16-23,16-23,PGH,obg,in
+16-26,16-26,PGH,obg,in
+16-31,16-31,PGH,obg,in
+16-31,16-31,PGH,,
+16-35,16-35,PGH,obg,in
+16-36,16-36,PGH,obg,in
+16-40,16-40,PGH,obg,in
+16-8,16-8,PGH,,
+16B40,16B40,PGH,obg,in
+2-,2-,PGH,unk,in
+29-Feb,29-Feb,PGH,,
+3-,3-,PGH,unk,in
+4-,4-,PGH,unk,in
+40-,40-,PGH,,in
+405-1,405-1,PGH,sur,in
+405-2,405-2,PGH,sur,in
+406-1,406-1,PGH,,
+406-2,406-2,PGH,sur,in
+407-1,407-1,PGH,pay,in
+407-1,407-1,PGH,sur,in
+407-2,407-2,PGH,sur,in
+407-3,407-3,PGH,oth,in
+407-4,407-4,PGH,pay,in
+407-4,407-4,PGH,sur,in
+407-4,407-4,PGH,,
+407-5,407-5,PGH,sur,in
+408-1,408-1,PGH,sur,in
+408-1,408-1,PGH,oth,in
+408-1,408-1,PGH,,
+408-2,408-2,PGH,sur,in
+408-2,408-2,PGH,,
+408-3,408-3,PGH,sur,in
+408-4,408-4,PGH,,
+408-5,408-5,PGH,sur,in
+408-5,408-5,PGH,unk,in
+408-5,408-5,PGH,,
+408-6,408-6,PGH,sur,in
+408-6,408-6,PGH,,
+408-7,408-7,PGH,sur,in
+409-2,409-2,PGH,sur,in
+409-4,409-4,PGH,sur,in
+409-5,409-5,PGH,oth,in
+409-6,409-6,PGH,sur,in
+418-2,418-2,PGH,oth,in
+426-5,426-5,PGH,,
+432-1,432-1,PGH,,
+432-2,432-2,PGH,mix,in
+432-2,432-2,PGH,,
+433-1,433-1,PGH,sur,in
+433-1,433-1,PGH,oth,in
+433-1,433-1,PGH,oth,in
+433-2,433-2,PGH,sur,in
+434-1,434-1,PGH,sur,in
+434-1,434-1,PGH,oth,in
+434-2,434-2,PGH,sur,in
+434-2,434-2,PGH,,
+434-3,434-3,PGH,pay,in
+434-3,434-3,PGH,sur,in
+434-3,434-3,PGH,,
+434-4,434-4,PGH,sur,in
+434-4,434-4,PGH,,
+434-5,434-5,PGH,sur,in
+434-5,434-5,PGH,,
+434-6,434-6,PGH,oth,in
+434-6,434-6,PGH,sur,in
+434-6,434-6,PGH,mix,in
+434-6,434-6,PGH,mix,mix
+434-8,434-8,PGH,sur,in
+435-1,435-1,PGH,sur,in
+435-2,435-2,PGH,sur,in
+435-2,435-2,PGH,mix,in
+435-2,435-2,PGH,,
+435-3,435-3,PGH,sur,in
+435-3,435-3,PGH,pay,in
+435-3,435-3,PGH,,
+435-4,435-4,PGH,sur,in
+435-4,435-4,PGH,pay,in
+435-4,435-4,PGH,,in
+435-4,435-4,PGH,,
+435-5,435-5,PGH,oth,in
+435-5,435-5,PGH,sur,in
+435-5,435-5,PGH,,
+435-6,435-6,PGH,sur,in
+435-6,435-6,PGH,,
+436-1,436-1,PGH,sur,in
+436-1,436-1,PGH,oth,in
+436-2,436-2,PGH,oth,in
+436-2,436-2,PGH,sur,in
+436-2,436-2,PGH,mix,mix
+436-3,436-3,PGH,sur,in
+436-3,436-3,PGH,,
+436-4,436-4,PGH,sur,in
+436-4,436-4,PGH,,
+436-5,436-5,PGH,oth,in
+436-5,436-5,PGH,sur,in
+436-5,436-5,PGH,mix,in
+436-5,436-5,PGH,pay,in
+436-6,436-6,PGH,sur,in
+450-1,450-1,PGH,pay,in
+450-2,450-2,PGH,pay,in
+450-2,450-2,PGH,oth,in
+451-1,451-1,PGH,oth,in
+451-1,451-1,PGH,pay,in
+451-2,451-2,PGH,mix,in
+452-1,452-1,PGH,pay,in
+452-2,452-2,PGH,pay,in
+452-3,452-3,PGH,pay,in
+452-4,452-4,PGH,pay,in
+452-5,452-5,PGH,pay,in
+452-6,452-6,PGH,pay,in
+453-1,453-1,PGH,pay,in
+453-2,453-2,PGH,pay,in
+453-2,453-2,PGH,pay,in
+453-3,453-3,PGH,pay,in
+453-5,453-5,PGH,oth,in
+453-6,453-6,PGH,pay,in
+454-2,454-2,PGH,oth,in
+454-2,454-2,PGH,pay,in
+454-3,454-3,PGH,pay,in
+454-3,454-3,PGH,mix,in
+454-4,454-4,PGH,pay,in
+454-5,454-5,PGH,mix,in
+459-1,459-1,PGH,pay,in
+468-3,468-3,PGH,pay,in
+470P,470P,PGH,,
+476-5,476-5,PGH,pay,in
+5 RCB,5 RCB,PGH,neuro,in
+505-1,505-1,PGH,pay,in
+505-1,505-1,PGH,mix,in
+505-2,505-2,PGH,pay,in
+505-3,505-3,PGH,pay,in
+507-5,507-5,PGH,pay,in
+509-2,509-2,PGH,pay,in
+512-1,512-1,PGH,,
+514-1,514-1,PGH,pay,in
+514-2,514-2,PGH,pay,in
+514-2,514-2,PGH,,
+515-1,515-1,PGH,pay,in
+515-1,515-1,PGH,mix,in
+515-2,515-2,PGH,pay,in
+515-2,515-2,PGH,oth,in
+515-3,515-3,PGH,pay,in
+516-1,516-1,PGH,pay,in
+516-1,516-1,PGH,oth,in
+516-2,516-2,PGH,pay,in
+516-3,516-3,PGH,pay,in
+516-3,516-3,PGH,mix,in
+516-4,516-4,PGH,pay,in
+516-5,516-5,PGH,oth,in
+516-5,516-5,PGH,pay,in
+516-6,516-6,PGH,pay,in
+517-1,517-1,PGH,pay,in
+517-2,517-2,PGH,pay,in
+517-3,517-3,PGH,pay,in
+517-4,517-4,PGH,pay,in
+517-4,517-4,PGH,oth,in
+517-5,517-5,PGH,oth,in
+517-5,517-5,PGH,pay,in
+517-5,517-5,PGH,pay,in
+517-5,517-5,PGH,unk,in
+517-6,517-6,PGH,pay,in
+517-6,517-6,PGH,pay,in
+518-1,518-1,PGH,oth,in
+518-1,518-1,PGH,pay,in
+518-2,518-2,PGH,pay,in
+518-3,518-3,PGH,pay,in
+518-3,518-3,PGH,mix,in
+518-3,518-3,PGH,oth,oth
+518-4,518-4,PGH,oth,in
+518-4,518-4,PGH,pay,in
+518-4,518-4,PGH,pay,in
+518-5,518-5,PGH,pay,in
+518-5,518-5,PGH,oth,in
+518-5,518-5,PGH,mix,in
+518-6,518-6,PGH,pay,in
+518-6,518-6,PGH,mix,in
+518-6,518-6,PGH,pay,in
+518-7,518-7,PGH,,
+520-2,520-2,PGH,sur,in
+521-3,521-3,PGH,sur,in
+532-1,532-1,PGH,pay,in
+532-2,532-2,PGH,pay,in
+533-1,533-1,PGH,pay,in
+533-2,533-2,PGH,pay,in
+534-1,534-1,PGH,pay,in
+534-1,534-1,PGH,mix,mix
+534-1,534-1,PGH,oth,in
+534-1,534-1,PGH,pay,in
+534-2,534-2,PGH,pay,in
+534-2,534-2,PGH,mix,in
+534-3,534-3,PGH,pay,in
+534-3,534-3,PGH,mix,in
+534-4,534-4,PGH,pay,in
+534-4,534-4,PGH,oth,in
+534-4,534-4,PGH,pay,in
+534-5,534-5,PGH,,
+535-1,535-1,PGH,pay,in
+535-2,535-2,PGH,mix,in
+535-3,535-3,PGH,pay,in
+535-3,535-3,PGH,pay,mix
+535-4,535-4,PGH,pay,in
+535-5,535-5,PGH,oth,oth
+535-6,535-6,PGH,oth,in
+536-1,536-1,PGH,pay,in
+536-1,536-1,PGH,mix,in
+536-2,536-2,PGH,pay,in
+536-3,536-3,PGH,,
+536-4,536-4,PGH,pay,in
+536-5,536-5,PGH,pay,in
+536-6,536-6,PGH,pay,in
+538-1,538-1,PGH,,
+539-1,539-1,PGH,pay,in
+539-1,539-1,PGH,oth,in
+539-2,539-2,PGH,pay,in
+539-2,539-2,PGH,mix,in
+539-3,539-3,PGH,pay,in
+540-1,540-1,PGH,pay,in
+540-2,540-2,PGH,pay,in
+545-1,545-1,PGH,,
+549-1,549-1,PGH,pay,in
+549-2,549-2,PGH,oth,in
+549-2,549-2,PGH,pay,in
+550-1,550-1,PGH,pay,in
+550-1,550-1,PGH,oth,in
+550-1,550-1,PGH,mix,in
+550-2,550-2,PGH,pay,in
+550-2,550-2,PGH,mix,in
+550-3,550-3,PGH,pay,in
+550-3,550-3,PGH,mix,in
+550-4,550-4,PGH,pay,in
+550-4,550-4,PGH,mix,in
+550-4,550-4,PGH,pay,mix
+550-5,550-5,PGH,oth,in
+550-5,550-5,PGH,pay,in
+550-6,550-6,PGH,pay,in
+551-1,551-1,PGH,pay,in
+551-2,551-2,PGH,pay,in
+551-3,551-3,PGH,oth,in
+551-3,551-3,PGH,pay,in
+551-4,551-4,PGH,oth,in
+551-4,551-4,PGH,pay,in
+551-4,551-4,PGH,mix,in
+551-5,551-5,PGH,pay,in
+551-6,551-6,PGH,pay,in
+551-6,551-6,PGH,mix,in
+552-1,552-1,PGH,pay,in
+552-2,552-2,PGH,oth,in
+552-2,552-2,PGH,pay,in
+552-3,552-3,PGH,pay,in
+552-4,552-4,PGH,pay,in
+552-5,552-5,PGH,pay,in
+552-6,552-6,PGH,pay,in
+552-6,552-6,PGH,oth,in
+556-1,556-1,PGH,pay,in
+556-1,556-1,PGH,oth,in
+556-2,556-2,PGH,pay,in
+557-1,557-1,PGH,pay,in
+557-2,557-2,PGH,pay,in
+557-2,557-2,PGH,oth,in
+564-2,564-2,PGH,pay,in
+565-1,565-1,PGH,med,in
+565-1,565-1,PGH,oth,in
+565-2,565-2,PGH,oth,in
+565-3,565-3,PGH,pay,in
+566-1,566-1,PGH,pay,in
+566-1,566-1,PGH,oth,in
+566-2,566-2,PGH,pay,in
+567-1,567-1,PGH,pay,in
+567-2,567-2,PGH,pay,in
+567-3,567-3,PGH,pay,in
+567-3,567-3,PGH,mix,in
+567-4,567-4,PGH,pay,in
+567-5,567-5,PGH,pay,in
+567-5,567-5,PGH,mix,in
+567-5,567-5,PGH,pay,in
+567-6,567-6,PGH,pay,in
+567-6,567-6,PGH,unk,in
+567-B,567-B,PGH,pay,in
+568-1,568-1,PGH,pay,in
+568-1,568-1,PGH,mix,in
+568-2,568-2,PGH,pay,in
+568-2,568-2,PGH,oth,in
+568-2,568-2,PGH,mix,in
+568-3,568-3,PGH,pay,in
+568-4,568-4,PGH,oth,in
+568-4,568-4,PGH,pay,in
+568-5,568-5,PGH,pay,in
+568-5,568-5,PGH,oth,in
+568-5,568-5,PGH,mix,in
+568-6,568-6,PGH,pay,in
+568-6,568-6,PGH,mix,in
+568-6,568-6,PGH,mix,mix
+568-6,568-6,PGH,oth,in
+569-,569-,PGH,pay,in
+569-1,569-1,PGH,pay,in
+569-2,569-2,PGH,pay,in
+569-3,569-3,PGH,,
+569-4,569-4,PGH,oth,in
+569-4,569-4,PGH,pay,in
+569-5,569-5,PGH,pay,in
+569-6,569-6,PGH,pay,in
+569-6,569-6,PGH,oth,in
+577-4,577-4,PGH,pay,in
+578-2,578-2,PGH,pay,in
+596-6,596-6,PGH,pay,in
+6-,6-,PGH,unk,in
+606-1,606-1,PGH,mix,in
+606-1,606-1,PGH,oth,in
+606-2,606-2,PGH,oth,in
+606-2,606-2,PGH,pay,in
+606-3,606-3,PGH,pay,in
+607-1,607-1,PGH,pay,in
+607-2,607-2,PGH,pay,in
+607-3,607-3,PGH,pay,in
+607-3,607-3,PGH,mix,in
+608-2,608-2,PGH,pay,in
+618-1,618-1,PGH,pay,in
+618-2,618-2,PGH,pay,in
+618-3,618-3,PGH,pay,in
+618-4,618-4,PGH,oth,in
+618-4,618-4,PGH,pay,in
+618-5,618-5,PGH,pay,in
+619-1,619-1,PGH,pay,in
+619-3,619-3,PGH,pay,in
+619-4,619-4,PGH,pay,in
+620-1,620-1,PGH,pay,in
+620-2,620-2,PGH,pay,in
+620-3,620-3,PGH,pay,in
+620-4,620-4,PGH,pay,in
+620-5,620-5,PGH,pay,in
+626-1,626-1,PGH,pay,in
+626-2,626-2,PGH,pay,in
+627-1,627-1,PGH,pay,in
+627-2,627-2,PGH,pay,in
+639-1,639-1,PGH,pay,in
+639-2,639-2,PGH,pay,in
+639-2,639-2,PGH,mix,mix
+639-2,639-2,PGH,pay,in
+639-3,639-3,PGH,pay,in
+639-3,639-3,PGH,oth,in
+639-4,639-4,PGH,pay,in
+639-4,639-4,PGH,oth,in
+640-1,640-1,PGH,pay,in
+640-1,640-1,PGH,oth,in
+640-14,640-14,PGH,,
+640-2,640-2,PGH,pay,in
+640-2,640-2,PGH,mix,mix
+640-3,640-3,PGH,pay,in
+640-4,640-4,PGH,pay,in
+640-4,640-4,PGH,mix,in
+640-4,640-4,PGH,pay,in
+640-5,640-5,PGH,pay,in
+640-5,640-5,PGH,oth,in
+641-1,641-1,PGH,oth,in
+641-1,641-1,PGH,pay,in
+641-2,641-2,PGH,pay,in
+641-2,641-2,PGH,mix,mix
+641-3,641-3,PGH,,
+641-4,641-4,PGH,pay,in
+641-4,641-4,PGH,mix,in
+733A,733A,PGH,pay,in
+733A,733A,PGH,mix,in
+733A,733A,PGH,pay,in
+736 A,736 A,PGH,pay,in
+736 B,736 B,PGH,pay,in
+736 B,736 B,PGH,mix,in
+736A,736A,PGH,pay,in
+736A,736A,PGH,mix,in
+736B,736B,PGH,pay,in
+736B,736B,PGH,med,in
+736B,736B,PGH,pay,in
+745P,745P,PGH,,
+756-2,756-2,PGH,,
+acu,acu,PGH,med,mix
+acu,acu,PGH,sur,mix
+acu,acu,PGH,ped,mix
+acu,acu,PGH,med,in
+acu,acu,PGH,med,mix
+acu,acu,PGH,sur,in
+acu,acu,PGH,sur,mix
+acu,acu,PGH,med,mix
+ACU-,ACU-,PGH,,
+ACU 1,ACU 1,PGH,acu,in
+ACU DE,ACU DE,PGH,acu,in
+ACU DE,ACU DE,PGH,,
+ACU EN,ACU EN,PGH,,
+ACU ER,ACU ER,PGH,acu,in
+ACU ER,ACU ER,PGH,,
+ACU IM,ACU IM,PGH,,
+ACU ME,ACU ME,PGH,acu,in
+ACU ME,ACU ME,PGH,,
+ACU MJ,ACU MJ,PGH,,
+ACU NI,ACU NI,PGH,acu,in
+ACU OP,ACU OP,PGH,acu,in
+ACU OR,ACU OR,PGH,acu,in
+ACU OR,ACU OR,PGH,,
+ACU RE,ACU RE,PGH,acu,in
+ACU RE,ACU RE,PGH,,
+ACU SO,ACU SO,PGH,,
+ACU SX,ACU SX,PGH,acu,in
+ACU SX,ACU SX,PGH,,
+ACUSX,ACUSX,PGH,,
+ambu,ambu,PGH,mix,mix
+ambu,ambu,PGH,eme,mix
+AMBU 5,AMBU 5,PGH,eme,mix
+ATR-BC,ATR-BC,PGH,,
+BCC,BCC,PGH,,
+BU 1,BU 1,PGH,burn,in
+BU 10,BU 10,PGH,burn,in
+BU 11,BU 11,PGH,burn,in
+BU 3,BU 3,PGH,burn,in
+burn,burn,PGH,sur,in
+BURN 1,BURN 1,PGH,burn,in
+BURN 2,BURN 2,PGH,burn,in
+BURN 3,BURN 3,PGH,burn,in
+BURN 4,BURN 4,PGH,burn,in
+BURN 5,BURN 5,PGH,burn,in
+BURN 9,BURN 9,PGH,burn,in
+BURN U,BURN U,PGH,burn,in
+burn/r,burn/r,PGH,,
+C I 9,C I 9,PGH,,
+cbop,cbop,PGH,mix,mix
+cbop,cbop,PGH,mix,
+cbop,cbop,PGH,mix,mix
+CB-OP,CB-OP,PGH,out,out
+CB-OP,CB-OP,PGH,,
+CEN 11,CEN 11,PGH,icu,in
+CEN 12,CEN 12,PGH,,
+CEN 2,CEN 2,PGH,icu,in
+CEN 20,CEN 20,PGH,icu,in
+CEN 8,CEN 8,PGH,icu,in
+cenicu,cenicu,PGH,icu,in
+CI,CI,PGH,mix,in
+CI,CI,PGH,,
+CI 14,CI 14,PGH,mix,in
+CI 15,CI 15,PGH,mix,in
+CI 17,CI 17,PGH,mix,in
+CI 18,CI 18,PGH,mix,in
+CI 22,CI 22,PGH,,
+CI 36,CI 36,PGH,,
+CI 37,CI 37,PGH,mix,in
+CI 40,CI 40,PGH,mix,in
+CI-OPD,CI-OPD,PGH,,
+ciw,ciw,PGH,mix,in
+cpu,cpu,PGH,ped,in
+DEM,DEM,PGH,eme,out
+dem,dem,PGH,,in
+DEM,DEM,PGH,,
+DEM ER,DEM ER,PGH,eme,out
+DEM RE,DEM RE,PGH,eme,out
+DEM RE,DEM RE,PGH,,
+DEMS,DEMS,PGH,eme,out
+DERMA,DERMA,PGH,out,out
+DOPS,DOPS,PGH,unk,unk
+DRI,DRI,PGH,,
+er,er,PGH,mix,mix
+er,er,PGH,oth,mix
+er,er,PGH,mix,eme
+ER 10,ER 10,PGH,,in
+ER MHA,ER MHA,PGH,,
+ER PAY,ER PAY,PGH,,
+ER-ORL,ER-ORL,PGH,mix,mix
+ER-PAY,ER-PAY,PGH,,
+FMC,FMC,PGH,unk,in
+FMC,FMC,PGH,,
+GEN ME,GEN ME,PGH,med,in
+GENMED,GENMED,PGH,,
+GS3,GS3,PGH,unk,unk
+GS3,GS3,PGH,sur,in
+GS3,GS3,PGH,,
+H O,H O,PGH,HOLD,out
+H O,H O,PGH,,
+H O 11,H O 11,PGH,,
+H O 19,H O 19,PGH,,
+H O2,H O2,PGH,HOLD,out
+HEMA O,HEMA O,PGH,,
+hicu,hicu,PGH,mix,mix
+ho,ho,PGH,ped,in
+ho,ho,PGH,,in
+HO-,HO-,PGH,HOLD,out
+HO-,HO-,PGH,,
+HO 1,HO 1,PGH,HOLD,out
+HO 11,HO 11,PGH,HOLD,out
+HO 8,HO 8,PGH,HOLD,out
+HO 8,HO 8,PGH,,
+HO 9,HO 9,PGH,HOLD,out
+HO-15,HO-15,PGH,,
+HO-8,HO-8,PGH,,
+HOLD,HOLD,PGH,HOLD,out
+HOLD,HOLD,PGH,mix,in
+HOLD,HOLD,PGH,oth,oth
+HOLD,HOLD,PGH,unk,unk
+HOLD,HOLD,PGH,,
+ICU,ICU,PGH,icu,in
+icu,icu,PGH,icu,in
+IDS,IDS,PGH,,
+IM,IM,PGH,,
+IM-,IM-,PGH,,
+IM ER,IM ER,PGH,mix,eme
+IM ER,IM ER,PGH,,
+IM215,IM215,PGH,med,in
+IMER,IMER,PGH,,
+IM-ER,IM-ER,PGH,,
+imu,imu,PGH,icu,in
+IMU 2,IMU 2,PGH,med,in
+IMU 8,IMU 8,PGH,,
+LRDR,LRDR,PGH,obg,in
+LRDR,LRDR,PGH,,
+M,M,PGH,unk,unk
+mcu,mcu,PGH,icu,in
+MED,MED,PGH,med,in
+MED AC,MED AC,PGH,,
+micu,micu,PGH,med,in
+micu,micu,PGH,icu,in
+MICU 1,MICU 1,PGH,icu,in
+MICU 1,MICU 1,PGH,icu,in
+MICU 2,MICU 2,PGH,icu,in
+MICU 2,MICU 2,PGH,icu,in
+MICU 4,MICU 4,PGH,icu,in
+MICU 5,MICU 5,PGH,icu,in
+MICU 5,MICU 5,PGH,icu,in
+MICU 6,MICU 6,PGH,icu,in
+MICU 6,MICU 6,PGH,icu,in
+MICU 7,MICU 7,PGH,icu,in
+MICU 8,MICU 8,PGH,icu,in
+MICU 8,MICU 8,PGH,icu,in
+MICU 9,MICU 9,PGH,icu,in
+mwd,mwd,PGH,med,in
+ncu,ncu,PGH,icu,in
+NEURO,NEURO,PGH,icu,in
+NEURO,NEURO,PGH,,
+nicu,nicu,PGH,neo,in
+nicu,nicu,PGH,neo,in
+NICU 2,NICU 2,PGH,neo,in
+NICU 2,NICU 2,PGH,neo,
+NICU 3,NICU 3,PGH,neo,in
+NICU 4,NICU 4,PGH,neo,in
+NICU 4,NICU 4,PGH,neo,
+NICU 5,NICU 5,PGH,neo,
+NICU 6,NICU 6,PGH,neo,
+NICU 9,NICU 9,PGH,neo,in
+NICU-2,NICU-2,PGH,neo,
+nnicu,nnicu,PGH,neo,in
+nnicu,nnicu,PGH,neo,in
+nnicu,nnicu,PGH,neo,in
+NSS,NSS,PGH,,
+nsscu,nsscu,PGH,sur,in
+nur,nur,PGH,neo,in
+NXI,NXI,PGH,oth,in
+NXI,NXI,PGH,,
+O4,O4,PGH,,in
+OB,OB,PGH,,
+obas,obas,PGH,obg,mix
+obg,obg,PGH,obg,in
+OB-PAY,OB-PAY,PGH,obg,in
+OFM,OFM,PGH,,
+OP LAB,OP LAB,PGH,,
+opd,opd,PGH,mix,mix
+OPD/OU,OPD/OU,PGH,,
+OPTHA,OPTHA,PGH,optha,out
+opy,opy,PGH,out,out
+ORL,ORL,PGH,oth,eme
+ORL,ORL,PGH,,
+OR-OPD,OR-OPD,PGH,,
+ortho,ortho,PGH,sur,in
+ortho,ortho,PGH,sur,in
+ou,ou,PGH,eme,mix
+out,out,PGH,out,out
+out,out,PGH,oth,out
+out,out,PGH,oth,out
+OUTPAY,OUTPAY,PGH,out,out
+OUTPAY,OUTPAY,PGH,,
+pacu,pacu,PGH,icu,in
+pacu,pacu,PGH,sur,in
+pas,pas,PGH,ped,mix
+pay,pay,PGH,mix,in
+PAY ER,PAY ER,PGH,eme,in
+PAY ER,PAY ER,PGH,oth,in
+PAY ER,PAY ER,PGH,pay,in
+PAY ER,PAY ER,PGH,,
+PAY OB,PAY OB,PGH,obg,in
+payer,payer,PGH,pay,eme
+PAY-ER,PAY-ER,PGH,pay,eme
+PAY-ER,PAY-ER,PGH,med,eme
+PAY-ER,PAY-ER,PGH,,
+PAYER1,PAYER1,PGH,pay,eme
+PAYER2,PAYER2,PGH,pay,eme
+PAYER3,PAYER3,PGH,pay,eme
+pcr,pcr,PGH,,in
+PED,PED,PGH,,
+PED SX,PED SX,PGH,,
+PEDIA,PEDIA,PGH,ped,in
+PEDIA,PEDIA,PGH,,
+per,per,PGH,ped,mix
+per,per,PGH,eme,mix
+per,per,PGH,ped,in
+per,per,PGH,ped,mix
+PH,PH,PGH,mix,in
+PH 11,PH 11,PGH,mix,in
+PH 26,PH 26,PGH,mix,in
+PH-01,PH-01,PGH,,
+PH-02,PH-02,PGH,,
+PH-07,PH-07,PGH,mix,in
+PH-1,PH-1,PGH,,
+PH-12,PH-12,PGH,mix,in
+PH-2,PH-2,PGH,,
+PH-21,PH-21,PGH,,
+PH-4,PH-4,PGH,oth,in
+phic,phic,PGH,pay,in
+PHIL,PHIL,PGH,mix,in
+PHILHE,PHILHE,PGH,mix,in
+PHU 20,PHU 20,PGH,,
+PHW,PHW,PGH,mix,in
+PHW,PHW,PGH,,
+PHW 27,PHW 27,PGH,oth,in
+PHW-17,PHW-17,PGH,,
+PHW4,PHW4,PGH,mix,in
+picu,picu,PGH,icu,in
+picu,picu,PGH,icu,in
+picu,picu,PGH,icu,in
+PICU 1,PICU 1,PGH,icu,in
+PICU 2,PICU 2,PGH,icu,in
+PICU 3,PICU 3,PGH,icu,in
+PICU 4,PICU 4,PGH,icu,in
+PICU 6,PICU 6,PGH,icu,in
+PICU 7,PICU 7,PGH,icu,in
+PICU 8,PICU 8,PGH,icu,in
+rehab,rehab,PGH,mix,mix
+rehab,rehab,PGH,mix,
+renal,renal,PGH,med,in
+resus,resus,PGH,eme,eme
+resus,resus,PGH,eme,eme
+resus,resus,PGH,eme,eme
+RR,RR,PGH,,
+RUSUS,RUSUS,PGH,,
+SAGIP,SAGIP,PGH,,
+sicu,sicu,PGH,icu,in
+SICU 1,SICU 1,PGH,icu,in
+SICU 2,SICU 2,PGH,icu,in
+SICU 2,SICU 2,PGH,icu,in
+SICU 3,SICU 3,PGH,icu,in
+SICU 3,SICU 3,PGH,icu,in
+SICU 5,SICU 5,PGH,icu,in
+SICU 5,SICU 5,PGH,icu,in
+SICU 6,SICU 6,PGH,icu,in
+SICU2,SICU2,PGH,icu,in
+SOD,SOD,PGH,unk,unk
+SOD,SOD,PGH,oth,unk
+SOD,SOD,PGH,,
+sojr,sojr,PGH,mix,mix
+SOJR-7,SOJR-7,PGH,mix,mix
+spine,spine,PGH,sur,in
+spine,spine,PGH,sur,in
+SU,SU,PGH,sur,in
+SU,SU,PGH,,
+swd,swd,PGH,sur,in
+SX,SX,PGH,,
+SX ACU,SX ACU,PGH,sur,in
+SX ACU,SX ACU,PGH,,
+TRAUMA,TRAUMA,PGH,sur,in
+TRAUMA,TRAUMA,PGH,,
+trm,trm,PGH,sur,in
+TRUMA,TRUMA,PGH,,
+unk,unk,PGH,unk,unk
+unk,unk,PGH,mix,unk
+unk,unk,PGH,med,unk
+unk,unk,PGH,ped,unk
+unk,unk,PGH,sur,unk
+UPCM,UPCM,PGH,unk,unk
+uphs,uphs,PGH,med,in
+uphs,uphs,PGH,med,in
+URO,URO,PGH,sur,in
+URO,URO,PGH,,
+w16,w16,PGH,obg,in
+WARD 5,WARD 5,PGH,,
+wd1,wd1,PGH,med,in
+wd1,wd1,PGH,med,in
+wd10,wd10,PGH,mix,in
+wd11,wd11,PGH,ped,in
+wd11,wd11,PGH,ped,
+wd12,wd12,PGH,sur,in
+wd14a,wd14a,PGH,sur,in
+wd14b,wd14b,PGH,obg,in
+wd14b,wd14b,PGH,obg,in
+wd15,wd15,PGH,obg,in
+wd16,wd16,PGH,obg,in
+wd2,wd2,PGH,sur,in
+wd2,wd2,PGH,sur,
+wd3,wd3,PGH,med,in
+wd4,wd4,PGH,sur,in
+wd5n,wd5n,PGH,sur,in
+wd5n,wd5n,PGH,sur,
+wd6,wd6,PGH,sur,in
+wd6,wd6,PGH,sur,
+wd7,wd7,PGH,mix,in
+wd8,wd8,PGH,mix,in
+wd8,wd8,PGH,ped,in
+wd9,wd9,PGH,ped,in
+,unk,PGH,unk,unk
+B2031,B2031,RMC,ped,in
+BB,BB,RMC,lab,lab
+BLOODBANK,BB,RMC,lab,lab
+E,E,RMC,sur,in
+eme,eme,RMC,eme,eme
+emr,emr,RMC,eme,eme
+ent,ent,RMC,sur,mix
+er,emr,RMC,eme,eme
+ER,emr,RMC,eme,eme
+ERMED,ERMED,RMC,med,eme
+ERPED,ERPED,RMC,ped,eme
+etc,etc,RMC,mix,mix
+icu,icu,RMC,icu,in
+im,im,RMC,med,in
+IM,IM,RMC,med,in
+imcu,imcu,RMC,icu,in
+IMER,IMER,RMC,med,eme
+mcu,mcu,RMC,icu,in
+ME,ME,RMC,med,in
+med,med,RMC,med,in
+msa,msa,RMC,mix,mix
+mwd,mwd,RMC,med,in
+mwn,mwn,RMC,med,in
+N,nicu,RMC,icu,in
+ncu,ncu,RMC,ped,in
+nicu,nicu,RMC,icu,in
+nsy,nsy,RMC,neo,in
+ob,ob,RMC,obg,in
+OB,OB,RMC,obg,in
+OB-ER,OB-ER,RMC,obg,in
+oba,oba,RMC,obg,in
+OBER,OB-ER,RMC,obg,in
+obg,obg,RMC,obg,in
+obm,obm,RMC,obg,in
+opd,opd,RMC,out,out
+oph,oph,RMC,sur,in
+pay,pay,RMC,mix,in
+pcu,pcu,RMC,icu,in
+ped,ped,RMC,ped,in
+ped1,ped1,RMC,ped,in
+ped2,ped2,RMC,ped,in
+phw,phw,RMC,mix,in
+PI,PI,RMC,icu,in
+picu,picu,RMC,icu,in
+PICU,PICU,RMC,icu,in
+pwd,pwd,RMC,ped,in
+R1,R1,RMC,mix,in
+S,S,RMC,sur,in
+s1,s1,RMC,sur,in
+SU,SU,RMC,sur,in
+sur,sur,RMC,sur,in
+SURGERY,SURGERY,RMC,sur,in
+SW,SW,RMC,sur,in
+SW1,SW1,RMC,sur,in
+swd,swd,RMC,sur,in
+sx,sx,RMC,sur,in
+sx1,sx1,RMC,sur,in
+sx2,sx2,RMC,sur,in
+,unk,RMC,unk,unk
+221,221,RTH,unk,unk
+2F,2F,RTH,mix,in
+3F,3F,RTH,mix,in
+cw,cw,RTH,mix,in
+i,i,RTH,unk,unk
+is,iso,RTH,inf,in
+iso,iso,RTH,inf,in
+isolat,iso,RTH,inf,in
+med,med,RTH,med,in
+medica,medica,RTH,med,in
+micu,micu,RTH,icu,in
+nicu,nicu,RTH,neo,in
+ob,ob,RTH,obg,in
+ob-,ob-,RTH,obg,in
+opd,opd,RTH,out,out
+out,out,RTH,out,out
+ped,ped,RTH,ped,in
+pedi,pedi,RTH,ped,in
+pedia,pedia,RTH,ped,in
+ph,ph,RTH,mix,in
+pui,pui,RTH,inf,in
+shc,shc,RTH,mix,in
+sicu,sicu,RTH,icu,in
+sur,sur,RTH,sur,in
+unk,unk,RTH,unk,unk
+,unk,RTH,unk,unk
+as,as,RTM,as,in
+eme,eme,RTM,eme,eme
+es,es,RTM,es,in
+ew,ew,RTM,ew,in
+icu,icu,RTM,icu,in
+in,in,RTM,in,in
+nw,nw,RTM,nw,in
+OPD,OPD,RTM,out,out
+oth,oth,RTM,oth,oth
+out,out,RTM,out,out
+REF,REF,OTH,oth,oth
+RIMT,RITM,RTM,mix,in
+RiTM,RITM,RTM,mix,in
+RITM,RITM,RTM,mix,in
+,unk,RTM,unk,in
+2,2,SLH,med,in
+4,4,SLH,ped,in
+6,6,SLH,med,in
+7,7,SLH,inf,in
+8,8,SLH,ped,in
+10,10,SLH,med,in
+10f,10f,SLH,med,in
+17icu,17icu,SLH,icu,in
+adult male,unk,SLH,unk,In
+aicu,aicu,SLH,icu,in
+aidccu,aidccu,SLH,icu,in
+aidccu covid,aidccu,SLH,icu,in
+aidcov,aidcov,SLH,inf,in
+covid ward,aidcov,SLH,inf,in
+emr,emr,SLH,eme,eme
+EXT,EXT,SLH,unk,unk
+h4,h4,SLH,inf,in
+opd,opd,SLH,out,out
+opg,opg,SLH,out,out
+opm,opm,SLH,out,out
+opy,opy,SLH,out,out
+pav 10,pav 10,SLH,med,in
+pav 2,pav 2,SLH,inf,in
+pav 2 covid,pav 2,SLH,inf,in
+pav 3,pav 3,SLH,mix,in
+pav 4,pav 4,SLH,mix,in
+pav 6,pav 6,SLH,mix,in
+PAV 6,PAV 6,SLH,inf,in
+pav 6 covid,PAV 6,SLH,inf,in
+pav 7,pav 7,SLH,med,in
+pav 8,pav 8,SLH,ped,in
+pav. 4,pav. 4,SLH,ped,in
+pav10,pav10,SLH,med,in
+pav2,pav2,SLH,inf,in
+pav3,pav3,SLH,inf,in
+pav4,pav4,SLH,mix,in
+pav6,pav6,SLH,inf,in
+pav6,pav6,SLH,med,in
+pav6,pav6,SLH,ped,in
+pav6,pav6,SLH,mix,in
+pav7,pav7,SLH,inf,in
+pav7,pav7,SLH,med,in
+pav7,pav7,SLH,ped,in
+pav7,pav7,SLH,mix,in
+pav8,pav8,SLH,inf,in
+pav8,pav8,SLH,med,in
+pav8,pav8,SLH,ped,in
+pav8,pav8,SLH,mix,in
+pavc,pavc,SLH,med,in
+pavh4,pavh4,SLH,med,in
+pay,pay,SLH,inf,in
+pay,pay,SLH,med,in
+pay,pay,SLH,mix,in
+pay,pay,SLH,neo,in
+pay,pay,SLH,ped,in
+pay,pay,SLH,mix,in
+pcu,pcu,SLH,icu,in
+pcu,pcu,SLH,icu,in
+pcu,pcu,SLH,inf,in
+pcu,pcu,SLH,pic,in
+pidccu,pidccu,SLH,icu,in
+pipccu,pidccu,SLH,icu,in
+ppav6,ppav6,SLH,med,in
+,unk,SLH,unk,unk
+atc,atc,STU,lab,lab
+cai,cai,STU,mix,in
+emr,emr,STU,eme,eme
+ER,emr,STU,eme,eme
+icu,icu,STU,icu,In
+mcu,mcu,STU,icu,in
+MED,MED,STU,med,in
+mnp,mnp,STU,unk,In
+mwd,mwd,STU,med,in
+mwn,mwn,STU,med,in
+nsw,nsw,STU,sur,in
+nsy,nsy,STU,neo,in
+nwd,mwd,STU,med,in
+obg,obg,STU,obg,in
+op,op,STU,out,out
+oph,oph,STU,sur,in
+opm,opm,STU,out,out
+opp,opp,STU,ped,out
+opy,opy,STU,out,out
+pay,pay,STU,mix,in
+pcu,pcu,STU,icu,in
+picu,picu,STU,icu,In
+pwd,pwd,STU,ped,in
+rnl,rnl,STU,med,in
+scu,scu,STU,icu,in
+sic,sic,STU,mix,out
+swd,swd,STU,sur,in
+trm,trm,STU,sur,in
+,unk,STU,unk,unk
+aba,unk,VSM,unk,unk
+annex a,annexA,VSM,obg,in
+annex b,annexB,VSM,ped,in
+annexA,annexA,VSM,obg,in
+annexB,annexB,VSM,ped,in
+brn,brn,VSM,icu,in
+bsu,bsu,VSM,lab,lab
+ccmc,ccmc,VSM,mix,out
+ccu,ccu,VSM,sur,in
+ccuext,ccuext,VSM,icu,in
+cfi,cfi,VSM,mix,in
+eco,unk,VSM,unk,unk
+edgyn,edgyn,VSM,eme,eme
+edmed,edmed,VSM,eme,eme
+edped,edped,VSM,eme,eme
+edsur,edsur,VSM,sur,in
+edsurg,edsurg,VSM,sur,eme
+em,emr,VSM,eme,eme
+emped,emped,VSM,out,out
+emr,emr,VSM,eme,eme
+encu,encu,VSM,mix,in
+er,emr,VSM,eme,eme
+er1m,er1m,VSM,eme,eme
+er-1m,er1m,VSM,eme,eme
+ered,ered,VSM,mix,eme
+erent,erent,VSM,sur,eme
+erfam,erfam,VSM,eme,eme
+erfam,erfam,VSM,med,eme
+er-fam,er-fam,VSM,med,eme
+ergs,ergs,VSM,sur,out
+ergyn,ergyne,VSM,obg,eme
+ergyne,ergyne,VSM,obg,In
+erid,erid,VSM,inf,in
+erim,erim,VSM,med,eme
+ermed,ermed,VSM,med,eme
+erop,erop,VSM,eme,eme
+erorth,erorth,VSM,ortho,eme
+erped,erped,VSM,ped,eme
+er-ped,er-ped,VSM,ped,eme
+erpen,erpen,VSM,eme,eme
+ersur,ersur,VSM,sur,eme
+ersurg,ersur,VSM,sur,eme
+eruro,eruro,VSM,sur,eme
+er-uro,er-uro,VSM,sur,eme
+ha,ha,VSM,eme,in
+hru,hru,VSM,obg,in
+hru,hru,VSM,ped,in
+icu,icu,VSM,icu,in
+iec,iec,VSM,inf,in
+im-er,im-er,VSM,eme,eme
+kmcu,kmcu,VSM,neo,in
+ktu,ktu,VSM,sur,in
+lrdr,lrdr,VSM,obg,in
+ml,ml,VSM,mix,mix
+mncex,mncex,VSM,med,in
+n,n,VSM,med,in
+n10p,n10p,VSM,mix,In
+nb,nb,VSM,neo,in
+nb2f,nb2f,VSM,med,in
+nb3f,nb3f,VSM,med,in
+nb4,nb4f,VSM,med,in
+nb4f,nb4f,VSM,med,in
+nb6f,nb6f,VSM,med,In
+nbgf,nbgf,VSM,med,in
+nccu,nccu,VSM,sur,in
+neuroext,neuroext,VSM,unk,in
+newb,newb,VSM,neo,in
+ni,ni,VSM,neo,in
+nic,nic,VSM,neo,in
+nicu,nicu,VSM,neo,in
+nswext,nswext,VSM,sur,in
+ob,ob,VSM,obg,in
+obor,obor,VSM,obg,in
+op,opd,VSM,out,out
+opd,opd,VSM,out,out
+ope,ope,VSM,ent,out
+opg,opg,VSM,obg,out
+opi,opi,VSM,out,out
+opm,opm,VSM,med,out
+opn,opn,VSM,out,out
+opp,opp,VSM,ped,out
+ops,ops,VSM,sur,out
+opy,opy,VSM,out,out
+or,or,VSM,mix,in
+orrr,or,VSM,mix,in
+out,opd,VSM,out,out
+paor,paor,VSM,mix,in
+pccs,pccs,VSM,mix,out
+pdu,pdu,VSM,med,mix
+phic,phic,VSM,mix,in
+picu,picu,VSM,ped,in
+ren,ren,VSM,med,in
+rr,rr,VSM,mix,in
+scu,scu,VSM,icu,in
+sgh,sgh,VSM,sur,in
+sh,sh,VSM,sur,in
+sicu,sicu,VSM,sur,in
+sp1f,sp1f,VSM,sur,in
+sp2f,sp2f,VSM,sur,in
+sp3f,sp3f,VSM,sur,in
+srr,srr,VSM,sur,in
+ta,unk,VSM,unk,in
+trau,trau,VSM,eme,eme
+um,unk,VSM,unk,In
+unk,unk,VSM,unk,unk
+w1,w1,VSM,neo,in
+w10,w10,VSM,ped,in
+w10a,w10a,VSM,inf,in
+w10p,w10p,VSM,ped,in
+w11,w11,VSM,sur,in
+w12,w12,VSM,med,out
+w1h,w1h,VSM,obg,in
+w1l,w1l,VSM,obg,in
+w2,w2,VSM,obg,in
+w3a,w3a,VSM,mix,in
+w3b,w3b,VSM,mix,in
+w4,w4,VSM,mix,in
+w4a1,w4a1,VSM,mix,in
+w4a2,w4a2,VSM,mix,in
+w4b,w4b,VSM,mix,in
+w6,w6,VSM,sur,in
+w7,w7,VSM,ped,in
+w7gf,w7gf,VSM,ped,in
+w8,w8,VSM,sur,in
+w9,w9,VSM,med,in
+wd,unk,VSM,unk,unk
+wih,wih,VSM,unk,In
+WIL,WIL,VSM,unk,In
+,unk,VSM,unk,unk
+brn,brn,ZMC,icu,in
+emr,emr,ZMC,eme,eme
+er,emr,ZMC,eme,eme
+mcu,mcu,ZMC,icu,in
+med,med,ZMC,med,in
+mwd,mwd,ZMC,med,in
+nsw,nsy,ZMC,neo,in
+nsy,nsy,ZMC,neo,in
+obg,obg,ZMC,obg,in
+ope,ope,ZMC,sur,out
+oph,oph,ZMC,sur,in
+opm,opm,ZMC,out,out
+opy,opy,ZMC,out,out
+owd,owd,ZMC,sur,in
+pcu,pcu,ZMC,icu,out
+ped,ped,ZMC,ped,in
+pwd,pwd,ZMC,ped,in
+scu,scu,ZMC,icu,in
+sic,sic,ZMC,psy,in
+swd,swd,ZMC,sur,in
+,unk,ZMC,unk,unk
+DIAL,DIAL,ZPH,out,out
+DIALYS,DIALYS,ZPH,out,out
+ER-ISO,ER-ISO,ZPH,med,in
+ICO,icu,ZPH,icu,in
+Icu,icu,ZPH,icu,in
+LAB,atc,ZPH,lab,lab
+LU-009,LU-009,ZPH,oth,in
+mcu,mcu,ZPH,icu,in
+MCW,MCW,ZPH,med,in
+med,med,ZPH,med,in
+MED-C,MED-C,ZPH,med,in
+MED-CW,MED-CW,ZPH,med,in
+MED-P,MED-P,ZPH,med,in
+Med-ph,Med-ph,ZPH,med,in
+MED.CW,MED-CW,ZPH,med,in
+MESD,MESD,ZPH,med,in
+mpw,mpw,ZPH,med,in
+MSW,MSW,ZPH,med,in
+mwd,mwd,ZPH,med,in
+ncu,ncu,ZPH,icu,in
+NEQAS,NEQAS,ZPH,oth,oth
+NICU,NICU,ZPH,neo,in
+NICU-0,NICU-0,ZPH,neo,in
+NICU-I,NICU-I,ZPH,neo,in
+NICU-O,NICU-O,ZPH,neo,in
+NICU O,NICU-O,ZPH,neo,in
+O-PD,opd,ZPH,out,out
+OB,OB,ZPH,obg,in
+OB-CW,OB-CW,ZPH,obg,in
+OB-P,OB-P,ZPH,obg,in
+obg,obg,ZPH,obg,in
+opd,opd,ZPH,out,out
+opm,opm,ZPH,med,out
+opn,opn,ZPH,out,out
+opy,opy,ZPH,out,out
+OR,OR,ZPH,sur,in
+osw,osw,ZPH,obg,in
+OTH,atc,ZPH,lab,lab
+PACU,PACU,ZPH,sur,in
+pcu,pcu,ZPH,icu,in
+PED,PED,ZPH,ped,in
+PED-CW,PED-CW,ZPH,ped,in
+PR,PR,ZPH,mix,in
+PR7,PR7,ZPH,mix,in
+PR8,PR8,ZPH,mix,in
+PRIVAT,PRIVAT,ZPH,mix,in
+prm,prm,ZPH,mix,in
+pwd,pwd,ZPH,ped,in
+RESP/M,RESP/M,ZPH,med,in
+respi,respi,ZPH,med,in
+RESPI,RESPI,ZPH,med,in
+scu,scu,ZPH,icu,in
+SPH,SPH,ZPH,med,in
+SPR,SPR,ZPH,med,in
+SPR 7,SPR 7,ZPH,med,in
+SPR 8,SPR 8,ZPH,med,in
+spw,spw,ZPH,sur,in
+ssw,ssw,ZPH,sur,in
+SUR,SUR,ZPH,sur,in
+SUR-CW,SUR-CW,ZPH,sur,in
+SUR-PH,SUR-PH,ZPH,sur,in
+SURG,SUR,ZPH,sur,in
+SURG-C,SURG-C,ZPH,sur,in
+surg-p,surg-p,ZPH,sur,in
+SURG-P,surg-p,ZPH,sur,in
+SURH-P,SURH-P,ZPH,sur,in
+swd,swd,ZPH,sur,in
+WD-037,WD-037,ZPH,oth,in
+ZPH,ZPH,ZPH,oth,oth
+,unk,ZPH,unk,unk
+acu,acu,PGH,med,in
+burn,burn,PGH,sur,in
+per,per,PGH,ped,in
+obas,obas,PGH,obg,in
+pacu,pacu,PGH,icu,in
+ame,eme,,eme,eme
+mw,mwd,,med,in
