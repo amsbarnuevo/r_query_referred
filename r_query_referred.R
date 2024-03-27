@@ -9,7 +9,7 @@ library(readxl)
 library(svDialogs)
 
 
-setwd("D:/ALLYSA FILE/2023/DMU Files/DMU Projects/R Query Referred")
+setwd("D:/ALLYSA FILE/2024/DMU Projects/r_query_referred")
 
 # taking input with showing the message
 get_file <- dlgInput("Enter a text filename", Sys.info()[" "])$res
@@ -275,7 +275,7 @@ timestamp <- paste0(format(Sys.time(), "%Y%m%d%H%M"),"_file")
 
 
 # Define the output folder path
-wd <- "D:/ALLYSA FILE/2023/DMU Files/DMU Projects/R Query Referred/Files/"
+wd <- "D:/ALLYSA FILE/2024/DMU Projects/r_query_referred/Files/"
 
 # Construct the full output file path
 output_folder <- dir.create(paste0(wd,timestamp))
