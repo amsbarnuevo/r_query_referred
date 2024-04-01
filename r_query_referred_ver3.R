@@ -9,7 +9,7 @@ library(readxl)
 library(svDialogs)
 
 
-setwd("D:/ALLYSA FILE/2023/DMU Files/DMU Projects/R Query Referred")
+setwd("D:/ALLYSA FILE/2024/DMU Projects/r_query_referred")
 
 # taking input with showing the message
 get_file <- dlgInput("Enter a text filename", Sys.info()[" "])$res
@@ -55,7 +55,7 @@ result <- result %>% mutate_all(~as.character(ifelse(. == "nan", "", .)))
 
 
 
-#write.csv(result, file="Files/result_kpn_panel.csv")
+write.csv(result, file="Files/query_result.csv")
 
 # Define the columns to check
 path <- "Files/ORG_GROUPINGS_all.xlsx"
@@ -179,56 +179,6 @@ df$ward_type <- coalesce(df$WARD_TYPE, df$ward_type)
 
 
 
-#create new column if result is resistance or intermediate and change column value based on column name
-check_value <- c("i","r","R","I")
-
-# check column and set values based on condition
-ri_column <- sapply(df[,cols_to_check],function(x) ifelse(x %in% check_value,1,""))
-df_ri_column <- as.data.frame(ri_column)
-
-df_ri_column <- df_ri_column[ , order(names(df_ri_column))]
-
-# Identify mic column names
-cols_to_paste <- grep("nm", names(df_ri_column[,cols_to_check]), value = TRUE)
-cols_count <- length(cols_to_paste)
-
-if (cols_count !=0){
-  # Iterate over identified columns and paste values to the column on the left
-  for (col in cols_to_paste) {
-    index <- grep(col, names(df_ri_column))
-    df_ri_column[, (index - 1)] <- paste(df_ri_column[, (index - 1)], df_ri_column[, col])
-  }
-}
-
-
-
-# Remove mic columns after merging
-df_ri <- df_ri_column[, -grep("nm", names(df_ri_column))]
-
-
-# Remove remove leading or trailing spaces in a string
-df_ri <- as.data.frame(apply(df_ri, 2, function(x) gsub('\\s+', '', x)))
-
-
-# Remove first character in a string if column contains two string
-df_ri <- as.data.frame(apply(df_ri , 2,function (x) {ifelse(str_length(x) == 2, sub('.', '', x), x)}))
-
-
-#extract word before the first underscore
-colnames(df_ri) <- sub("_.*", "", colnames(df_ri))
-colnames(df_ri) <- toupper(colnames(df_ri))
-
-
-#Replace column value with the name of its respective column
-with_value <- which(df_ri==1,arr.ind=TRUE)
-df_ri[with_value] <- names(df_ri)[with_value[,"col"]]
-
-#Replace "0" with blank
-df_ri[df_ri == 0] <- ""
-
-
-
-
 # Function to process antibiotics
 R_value <- c("i", "r","ns","R","I","NS")
 S_value <- c("s","S")
@@ -280,7 +230,11 @@ df_rp <- as.data.frame(apply(df_rp, 2, function(x) gsub('\\s+', '', x)))
 
 # Remove first character in a string if column contains two string
 df_rp <- as.data.frame(apply(df_rp , 2,function (x) {ifelse(str_length(x) == 2, sub('.', '', x), x)}))
-                       
+        
+
+#assign "---" to all not tested antibiotics
+df_rp[df_rp == ""] <- "---"
+               
 #df_rp <- as.data.frame(apply(df_rp, 2, function(x) gsub('(^.).(.*$)', '\\1\\2', x)))
 
 
@@ -306,6 +260,15 @@ for (col in columns) {
 df_rp$RP <- do.call(paste, c(df_rp[grep("^RP_", names(df_rp))], sep = " "))
 
 
+
+#create new dataframe with the resistance profile result
+RP_columns <- grep("^RP", names(df_rp))
+df_rp_clean <- df_rp[ , c(RP_columns)]
+
+names(df_rp_clean) <- sub("^RP_", "", names(df_rp_clean))
+
+
+
 # Make sample_name values uppercase
 df$sample_name <- toupper(df$sample_name)
 
@@ -329,20 +292,28 @@ df$sample_name <- gsub("_", "-", df$sample_name)
 keeps_col <- c ("sample_name","laboratory",
                 "latitude","longitude",
                 "year","month","day",
-                "age", "ward_type",
-                "infection","nosocomial",
+                "age","ward","department","ward_type",
+                "arsrl_org","infection","nosocomial",
                 "specimen_type")
-
 
 
 #df_meta <- subset(df, select = c(keeps_col,at_colnames))
 df_meta <- df[ , c(keeps_col)]
-df_meta <- cbind(df_meta,df_ri)
 
-#Add Percent Resistance Column
-RP <- df_rp$RP
-df_meta <- df_meta %>%
-  add_column(RP)
+
+#add colistin value column if organism is KPN or ECO
+if (org_code == "kpn" || org_code == "eco"){
+  colistin_value <- result$col_nm
+  df_meta <- df_meta %>%
+    add_column(colistin_value )
+}
+
+
+df_meta <- cbind(df_meta,df_rp_clean)
+
+#change column name
+names(df_meta)[names(df_meta) == 'arsrl_org'] <- 'organism'
+
 
 
 file_path_base <- basename(file_path)
@@ -351,7 +322,7 @@ timestamp <- paste0(format(Sys.time(), "%Y%m%d%H%M"),"_file")
 
 
 # Define the output folder path
-wd <- "D:/ALLYSA FILE/2023/DMU Files/DMU Projects/R Query Referred/Files/"
+wd <- "D:/ALLYSA FILE/2024/DMU Projects/r_query_referred/Files/"
 
 # Construct the full output file path
 output_folder <- dir.create(paste0(wd,timestamp))
